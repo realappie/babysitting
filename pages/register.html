@@ -1,0 +1,228 @@
+<md-card>
+    <md-card-title class="register">
+        <md-card-title-text>
+            <span class="md-headline">Register</span>
+        </md-card-title-text>
+    </md-card-title>
+    <md-card-content>
+        <!-- <form name="registerForm">
+        </form> -->
+            <div class="subHeader" ng-click="reDoLoginInfo()">
+                Login information
+                <i class="material-icons" ng-class="{done: passwordChecked}">
+                    check
+                    <md-tooltip 
+                    md-direction="left" 
+                    class="desktop" 
+                    ng-if="passwordChecked"
+                    >
+                    Login Information done
+                    </md-tooltip>
+
+                    <md-tooltip 
+                    md-direction="bottom" 
+                    class="mobile" 
+                    ng-if="passwordChecked"
+                    >
+                        Login Information done
+                    </md-tooltip>
+                </i>
+                 <md-button 
+                    class="md-icon-button" 
+                    aria-label="Sign In With Google" 
+                    ng-disabled="passwordChecked" 
+                    ng-click="resetEmailChoice()"
+                    ng-if="withEmail && !passwordChecked"                    
+                > 
+                         <i class="fa fa-google googleIcon"></i>  
+                        <md-tooltip md-direction="left" class="desktop">Sign In With Google</md-tooltip>
+                        <md-tooltip md-direction="bottom" class="mobile">Sign In With Google</md-tooltip>
+                    </i>
+               </md-button>
+                <!-- <i class="fa fa-google googleIcon" ng-if="withEmail" ng-click="resetEmailChoice()" ></i>            
+                <img src="../images/gLogo.svg" class="googleIcon" alt="Google Logo Colored" ng-if="googleLoginFinished"> -->    
+                <span id="gLogo">
+                     <img src="../images/gLogo.svg" alt="Google Logo Colored" ng-if="googleLoginFinished">       
+                     <md-tooltip md-direction="left" class="desktop">Signed In With Google</md-tooltip>
+                     <md-tooltip md-direction="bottom" class="mobile">Signed In With Google</md-tooltip>
+                </span>
+                
+            </div>
+            <div class="registerPart loginInfo slideDown" ng-class="{slideUp: passwordChecked}">            
+
+            <div id="choice" class="registerPart" ng-if="!googleLoginFinished" ng-class="{slideDown: !chosen, slideUp: chosen}">
+                
+                <div class="gButton normal" role="login button" ng-click="signInWithGoogle()">
+                     <img class="logoTile" src="images/gButtonNormal.svg"/>
+                     <img class="logoTile" src="images/gButtonDisabled.svg"/>
+                     <span>Sign in with Google</span>
+                </div>
+                <div class="center">
+                    <p>Or</p>
+
+                    <md-button ng-click="signUpWithEmail()">
+                        <i class="material-icons email" >
+                        email
+                        </i>
+                        <md-tooltip md-direction="right">
+                        Signup With Email
+                        </md-tooltip>
+                    </md-button>                  
+                 </div>
+            </div>
+            
+            <div class="registerPart" id="googleLoginFinished" ng-class="{slideDown: googleLoginFinished, slideUp: !googleLoginFinished}">
+                <!-- Just show user information here, like user name in an input field -->
+
+                <!-- Once a user rechecks this screen, passwordChecked will be set to false, add a button that sets it back to true -->
+                <md-input-container class="md-block">
+                  <label>Email</label>
+                  <md-icon><i class="material-icons">email</i></md-icon>
+                  <input ng-model="user.email" ng-disabled="googleLoginFinished">
+                </md-input-container>
+                <md-input-container class="md-block">
+                  <label>Password</label>
+                  <md-icon><i class="material-icons">vpn_key</i></md-icon>
+                  <input value="Your Google Password" ng-disabled="googleLoginFinished">
+                </md-input-container>
+                
+                <p>
+                    <span>You're almost done</span>    
+                    <md-button ng-click="passwordChecked = true">
+                        <i class="material-icons checked">
+                         navigate_next
+                        </i>
+                        <md-tooltip md-direction="right">
+                            Continue
+                        </md-tooltip>
+                    </md-button>
+                </p>
+                <!-- <button ng-click="passwordChecked = true">done icon or something</button>    -->                
+            </div>    
+            
+            <div class="registerPart" ng-class="{slideDown: withEmail, slideUp: !withEmail}" ng-if="withEmail">
+                <form name="loginInformation">
+                    <md-input-container class="md-block">
+                        <!-- Use floating placeholder instead of label -->
+                        <md-icon><i class="material-icons">email</i></md-icon>
+                        <input ng-model="user.email" type="email" name="email" placeholder="Email" required>
+                        <div ng-messages="loginInformation.email.$error">
+                           <div ng-message="required">This is a required field</div>
+                       </div>
+                    </md-input-container>
+
+
+                    <md-input-container class="md-icon-float md-block">
+                        <!-- Use floating label instead of placeholder -->
+                        <label>Password</label>
+                        <md-icon><i class="material-icons">vpn_key</i></md-icon>
+                        <input ng-model="user.password" type="password" name="password" ng-keyup="checkPassword()" minlength="7" required>
+                        <div ng-messages="loginInformation.password.$error">
+                           <div ng-message="required">This is a required field</div>
+                           <div ng-message="minlength">Password needs to be at least 7 characters long</div>
+                       </div>
+                    </md-input-container>
+
+                    <md-input-container class="md-icon-float md-block">
+                        <!-- Use floating label instead of placeholder -->
+                        <label>Repeat password</label>
+                        <md-icon><i class="material-icons">vpn_key</i></md-icon>
+                        <input ng-model="user.passwordRepeat" type="password" name="passwordRepeat" ng-keyup="checkPassword()" minlength="7" required>
+                        <div ng-messages="loginInformation.passwordRepeat.$error">
+                           <div ng-message="required">This is a required field</div>
+                           <div ng-message="minlength">Password needs to be at least 7 characters long</div>
+                       </div>
+                    </md-input-container>
+                </form>
+            </div>
+
+            </div>
+
+            <div class="subHeader">
+                Personal information
+            </div>    
+            
+            <div class="registerPart" ng-class="{slideDown: passwordChecked, slideUp: !passwordChecked}">
+
+                <form name="personalInformation">
+                    <md-input-container class="md-block">
+                        <!-- Use floating placeholder instead of label -->
+                        <md-icon class="name"><i class="material-icons">account_circle</i></md-icon>
+                        <input ng-model="user.name" type="text" placeholder="Name" name="username" required>
+                        <div ng-messages="personalInformation.username.$error">
+                           <div ng-message="required">This is a required field</div>
+                       </div>
+                    </md-input-container>
+
+                    
+                    <md-input-container class="md-icon-float md-block"> 
+                        <md-checkbox ng-model="user.userType.parent" ng-change="checkCheckbox()"> Parent </md-checkbox>
+                        <md-checkbox ng-model="user.userType.babySitter" ng-change="checkCheckbox()"> Babysitter </md-checkbox>
+                    </md-input-container>
+                    
+
+                    <md-input-container class="dateContainer">
+                        <label>Birthdate:</label>
+                        <md-datepicker md-max-date="maxDate" ng-model="birthDay" md-placeholder="Enter date" name="birthday" required></md-datepicker>
+                        <div ng-messages="personalInformation.birthday.$error">
+                           <div ng-message="required">This is a required field</div>
+                       </div>
+                    </md-input-container>            
+                </form>
+            </div>
+
+                 
+            <div class="subHeader">
+                Address information
+            </div>        
+            <form name="addressInformation">
+        
+                <div class="registerPart" ng-class="{slideDown: passwordChecked, slideUp: !passwordChecked}">
+                    <md-input-container class="md-icon-float md-block">
+                        <!-- Use floating label instead of placeholder -->
+                        <label>City location</label>
+                        <md-icon><i class="material-icons">location_city</i></md-icon>
+                        <input ng-model="user.locationCity" type="text" name="location" required>
+                        <div ng-messages="addressInformation.location.$error">
+                           <div ng-message="required">This is a required field</div>
+                       </div>
+                    </md-input-container>
+
+                    <md-input-container class="md-icon-float md-block" ng-if="user.userType.parent">
+                        <!-- Use floating label instead of placeholder -->
+                        <label>Street</label>
+                        <md-icon><i class="material-icons">directions</i></md-icon>
+                        <input ng-model="user.street" type="text" name="street" required>
+                        <em>Isn't shared until a confirmed booking</em>
+                        <div ng-messages="addressInformation.street.$error">
+                           <div ng-message="required">This is a required field</div>
+                       </div>
+                    </md-input-container>
+
+                    <md-input-container class="md-icon-float md-block" ng-if="user.userType.parent">
+                        <!-- Use floating label instead of placeholder -->
+                        <label>ZIP code</label>
+                        <md-icon><i class="material-icons">my_location</i></md-icon>
+                        <input ng-model="user.zipCode" type="text" name="zipcode" required>
+                        <em>Isn't shared until a confirmed booking</em>
+                        <div ng-messages="addressInformation.zipcode.$error">
+                           <div ng-message="required">This is a required field</div>
+                       </div>
+                    </md-input-container>
+
+                </div>
+            </form>
+
+            
+        <md-button 
+            class="md-primary right" 
+            ng-click="register()"
+            ng-class="{initial: !passwordChecked}"
+            ng-disabled="!passwordChecked || addressInformation.$invalid || personalInformation.$invalid || loginInformation.$invalid || !userChosen"
+        >
+        Register
+        </md-button>
+                
+        <!-- <pre>{{user | json}}</pre> -->
+    </md-card-content>
+</md-card>

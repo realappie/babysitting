@@ -1,0 +1,5577 @@
+{
+  "admins" : {
+    "7EuMdjdTUTUyhyZd8g3eJStOM2i2" : {
+      "email" : "steef@gmail.com"
+    },
+    "sITw8vUE3th3IIVatP1uadAspo52" : {
+      "email" : "appie@gmail.com"
+    }
+  },
+  "availability" : {
+    "-KWP1mHPgEZCbCR_gPJ0" : {
+      "1478386800000" : {
+        "1478905200000" : {
+          "-KWPItHbbpAPG8UbefMk" : {
+            "endTime" : 1478912400000,
+            "startTime" : 1478908800000
+          },
+          "-KWPO1rZC42IBcf8r927" : {
+            "endTime" : 1478980800000,
+            "startTime" : 1478979000000
+          }
+        }
+      },
+      "1479596400000" : {
+        "1479596400000" : {
+          "-KXGT8WoiMmlfFRKtbYu" : {
+            "endTime" : 1479654000000,
+            "startTime" : 1479646800000
+          }
+        }
+      },
+      "1481410800000" : {
+        "1481670000000" : {
+          "-KYzP0dSXVl1V-3Ex58t" : {
+            "endTime" : 1481697000000,
+            "startTime" : 1481695200000
+          }
+        }
+      },
+      "1484434800000" : {
+        "1484953200000" : {
+          "-Kb1af5wbjY4Z1tc1F2C" : {
+            "endTime" : 1484974800000,
+            "startTime" : 1484971200000
+          }
+        }
+      },
+      "1484438400000" : {
+        "1484870400000" : {
+          "-KagYIpvPUYT99fZ9Mi8" : {
+            "endTime" : 1484910000000,
+            "startTime" : 1484906400000
+          }
+        }
+      }
+    },
+    "-KWP1mHX1QKKie3iBPB2" : {
+      "1478386800000" : {
+        "1478905200000" : {
+          "-KWP5FpxImgenwxlIejV" : {
+            "endTime" : 1478912400000,
+            "startTime" : 1478910600000
+          }
+        }
+      },
+      "1479596400000" : {
+        "1479596400000" : {
+          "-KX7SmRYuwf-qFD2Fuce" : {
+            "endTime" : 1479628800000,
+            "startTime" : 1479627000000
+          },
+          "-KX7ibJj4bl4ufteQQhI" : {
+            "endTime" : 1479623400000,
+            "startTime" : 1479619800000
+          }
+        }
+      },
+      "1482019200000" : {
+        "1482537600000" : {
+          "-KZmPsOXuBLhUQt4tyiq" : {
+            "endTime" : 1482562800000,
+            "startTime" : 1482559200000
+          }
+        }
+      }
+    },
+    "-KWP1mHY3P83peqpwHah" : {
+      "1480201200000" : {
+        "1480460400000" : {
+          "-KXr4RvFnB0xUAVhHbzB" : {
+            "endTime" : 1480489200000,
+            "startTime" : 1480485600000
+          }
+        }
+      }
+    },
+    "-KWP1mHZ4jOeDMiG2jUP" : {
+      "1478386800000" : {
+        "1478905200000" : {
+          "-KWP8bDCbMjgTtBM9QsL" : {
+            "endTime" : 1478935800000,
+            "startTime" : 1478908800000
+          }
+        }
+      },
+      "1484438400000" : {
+        "1484956800000" : {
+          "-Kb1fjq4HcTZWh1M2QL3" : {
+            "endTime" : 1484985600000,
+            "startTime" : 1484978400000
+          }
+        }
+      }
+    },
+    "-KWP1mHkE66gtSqENgj7" : {
+      "1479596400000" : {
+        "1479596400000" : {
+          "-KX2I4qoRFNTbKOzzRIr" : {
+            "endTime" : 1479630600000,
+            "startTime" : 1479621600000
+          }
+        }
+      }
+    },
+    "-KWP1mI03gK_k2t7MMNB" : {
+      "1485644400000" : {
+        "1485817200000" : {
+          "-KbpkLWmz3K-7Sbb4VXI" : {
+            "endTime" : 1485867600000,
+            "startTime" : 1485864000000
+          }
+        }
+      }
+    },
+    "-KWP1mI24WoAenoKPRpU" : {
+      "1485039600000" : {
+        "1485212400000" : {
+          "-KbF_cLDLmDhJKM-TOrx" : {
+            "endTime" : 1485244800000,
+            "startTime" : 1485241200000
+          }
+        }
+      }
+    },
+    "-KWP1mI68XBStDLmMSEH" : {
+      "1485039600000" : {
+        "1485298800000" : {
+          "-KbFYbObcHmfAY_0WfIQ" : {
+            "endTime" : 1485342000000,
+            "startTime" : 1485338400000
+          }
+        }
+      }
+    },
+    "-KWP1mIHxD4UsPWxDldm" : {
+      "1485644400000" : {
+        "1485817200000" : {
+          "-KbpNRli49jzLWf0yNI1" : {
+            "endTime" : 1485869400000,
+            "startTime" : 1485867600000
+          }
+        }
+      }
+    },
+    "-KWP1mIUvu9yUlN7-ty6" : {
+      "1501372800000" : {
+        "1501459200000" : {
+          "-KbLSJZwai-zNBnmI7eN" : {
+            "endTime" : 1501480800000,
+            "startTime" : 1501477200000
+          }
+        }
+      }
+    },
+    "-KWP1mIV9yRTWJ-CvL3H" : {
+      "1480201200000" : {
+        "1480460400000" : {
+          "-KXSn5HX4ikoZwSgfHr6" : {
+            "endTime" : 1480507200000,
+            "startTime" : 1480503600000
+          }
+        }
+      }
+    },
+    "-KWP1mIXSjxr9VSX7QqR" : {
+      "1479596400000" : {
+        "1479596400000" : {
+          "-KWZLYZbkF-PGgiHSdUV" : {
+            "endTime" : 1479621600000,
+            "startTime" : 1479618000000
+          },
+          "-KX7OQ0kz2LzlHVixFJE" : {
+            "endTime" : 1479632400000,
+            "startTime" : 1479628800000
+          },
+          "-KXGpaZy5axYTE_0b4gq" : {
+            "endTime" : 1479654000000,
+            "startTime" : 1479646800000
+          }
+        }
+      }
+    },
+    "-KWP1mIdYYbIuYVgq6vn" : {
+      "-349200000" : {
+        "-3600000" : {
+          "-KXSlDfpFas-N3htfhTn" : {
+            "endTime" : 27000000,
+            "startTime" : 23400000
+          }
+        }
+      }
+    },
+    "hOaQfQp6SmVYRu9SKN3qVEdeJiD2" : {
+      "1485648000000" : {
+        "1486166400000" : {
+          "-Kc9ha8TknAqhq7KyJs-" : {
+            "endTime" : 1486207800000,
+            "startTime" : 1486197000000
+          },
+          "-Kc9m336tU2S5vbEPDFZ" : {
+            "endTime" : 1486229400000,
+            "startTime" : 1486224000000
+          }
+        }
+      }
+    }
+  },
+  "babysitters" : {
+    "EikEr5PTRxcGJm2p9TAKrxlP8Mg1" : {
+      "birthDay" : 915516000000,
+      "email" : "testparent005@gmail.com",
+      "locationCity" : "Houston",
+      "name" : "Joe",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 5
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "GJOitBRAwdTCB5OLgfqt9pNTBAC2" : {
+      "birthDay" : 915170400000,
+      "email" : "testparent003@gmail.com",
+      "locationCity" : "Houston",
+      "name" : "Joe1",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 7
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "IJYqMw1RlFbAShTYi6jPE8bKeEG2" : {
+      "birthDay" : 315554400000,
+      "email" : "testbabysitter001@gmail.com",
+      "locationCity" : "Houston",
+      "name" : "Jane Doe",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 10
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "N0jHqPxQNTaV4dv5Bsq4V1XPX453" : {
+      "birthDay" : 916786800000,
+      "email" : "abdallaroc@gmail.com",
+      "locationCity" : "Amsterdam",
+      "name" : "Abdalla Elmedny",
+      "photoURL" : "https://lh5.googleusercontent.com/-_DzMzmsHKbk/AAAAAAAAAAI/AAAAAAAAESY/8EW9eDdwWnY/photo.jpg",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 5
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 10
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 3600000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 68400000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "f6w1xdzgKgh8QyE6LN2ZIPFbt7n2" : {
+      "birthDay" : 912553200000,
+      "email" : "testtest@gmail.com",
+      "locationCity" : "a",
+      "name" : "Appie",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 5
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "hOaQfQp6SmVYRu9SKN3qVEdeJiD2" : {
+      "birthDay" : 907192800000,
+      "email" : "abdelelmedny@gmail.com",
+      "locationCity" : "Amsterdam",
+      "name" : "Abdalla Elmedny",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 5
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 37800000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 27000000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 18000000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 66600000,
+        "name" : "Saturday",
+        "startTime" : 18000000
+      } ]
+    },
+    "i9NO9k1TGvc8VsOgQ7V06GB6yMv2" : {
+      "birthDay" : 916095600000,
+      "email" : "parentbabysitting@gmail.com",
+      "locationCity" : "Amsterdam",
+      "name" : "Parent parent",
+      "photoURL" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 5
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "zrsjUpKX4WTaqwSexfvXAbJs5Pr2" : {
+      "birthDay" : 883634400000,
+      "email" : "mkpatil@live.com",
+      "locationCity" : "Houston",
+      "name" : "Mary Babysitter",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 5
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    }
+  },
+  "babysittersTest" : {
+    "-KWP1mHPgEZCbCR_gPJ0" : {
+      "birthday" : 721377814734,
+      "email" : "Franks@gmail.com",
+      "locationCity" : "Woodlake",
+      "name" : "Frankss",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 22
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 21
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 21
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 25
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 20
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 21600000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 21600000,
+        "name" : "Saturday",
+        "startTime" : 18000000
+      } ]
+    },
+    "-KWP1mHX1QKKie3iBPB2" : {
+      "birthday" : 1092471108266,
+      "email" : "Lenora@gmail.com",
+      "locationCity" : "Ola",
+      "name" : "Lenora",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 18
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 3
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 7
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 15
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 12
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 21600000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mHY3P83peqpwHah" : {
+      "birthday" : 1421369094117,
+      "email" : "Sosa@gmail.com",
+      "locationCity" : "Nash",
+      "name" : "Sosa",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 8
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 18
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 2
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 10
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 3
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mHZ4jOeDMiG2jUP" : {
+      "birthday" : 911645950885,
+      "email" : "Booker@gmail.com",
+      "locationCity" : "Allentown",
+      "name" : "Booker",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 200
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 2
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 13
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 12
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 20
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mHdqjQv1BfEx9Qs" : {
+      "birthday" : 1421004202926,
+      "email" : "Paige@gmail.com",
+      "locationCity" : "Avoca",
+      "name" : "Paige",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 11
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 22
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 2
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 11
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 7
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mHhzO4b6Oxr83le" : {
+      "birthday" : 1270572093033,
+      "email" : "Frye@gmail.com",
+      "locationCity" : "Henrietta",
+      "name" : "Frye",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 9
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 24
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 3
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 7
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 17
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mHkE66gtSqENgj7" : {
+      "birthday" : 750299382708,
+      "email" : "Ollie@gmail.com",
+      "locationCity" : "Limestone",
+      "name" : "Ollie",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 19
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 18
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 3
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 13
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 21
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mHnbfcFZ_qsTOMj" : {
+      "birthday" : 1436210298717,
+      "email" : "Cherie@gmail.com",
+      "locationCity" : "Chemung",
+      "name" : "Cherie",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 7
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 14
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 23
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 20
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 18
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mHqz-9p7HJyBz9Q" : {
+      "birthday" : 1332739338536,
+      "email" : "Key@gmail.com",
+      "locationCity" : "Martell",
+      "name" : "Key",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 4
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 1
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 15
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 7
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 16
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mHrUhy7wLYadXmP" : {
+      "birthday" : 1293190620421,
+      "email" : "Bowen@gmail.com",
+      "locationCity" : "Chicopee",
+      "name" : "Bowen",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 20
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 8
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 9
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 19
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 9
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mHuMNxXSSur7KT2" : {
+      "birthday" : 714704475043,
+      "email" : "Suzanne@gmail.com",
+      "locationCity" : "Belva",
+      "name" : "Suzanne",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 19
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 24
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 15
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 9
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mHyJDdSxzGocbqi" : {
+      "birthday" : 764334372166,
+      "email" : "Cote@gmail.com",
+      "locationCity" : "Dundee",
+      "name" : "Cote",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 10
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 6
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 23
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 2
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 21
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mHzSZjVsuuwNfiq" : {
+      "birthday" : 1275748298132,
+      "email" : "Avila@gmail.com",
+      "locationCity" : "Wollochet",
+      "name" : "Avila",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 23
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 21
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 7
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 11
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mI-sFGLp4irRBbf" : {
+      "birthday" : 1180920087813,
+      "email" : "Sanchez@gmail.com",
+      "locationCity" : "Rivers",
+      "name" : "Sanchez",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 3
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 22
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 12
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 8
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mI03gK_k2t7MMNB" : {
+      "birthday" : 1344366975695,
+      "email" : "Doreen@gmail.com",
+      "locationCity" : "Frank",
+      "name" : "Doreen",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 17
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 6
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 16
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 23
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 25
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mI24WoAenoKPRpU" : {
+      "birthday" : 786166368171,
+      "email" : "Vaughn@gmail.com",
+      "locationCity" : "Walland",
+      "name" : "Vaughn",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 4
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 14
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 10
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 16
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 7
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mI33zslzIXAsIHp" : {
+      "birthday" : 1060597490496,
+      "email" : "Morse@gmail.com",
+      "locationCity" : "Spelter",
+      "name" : "Morse",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 19
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 3
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 1
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 10
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 12
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mI4RDwagwi0bmWR" : {
+      "birthday" : 1007968057232,
+      "email" : "Ratliff@gmail.com",
+      "locationCity" : "Aurora",
+      "name" : "Ratliff",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 14
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 4
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 21600000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mI68XBStDLmMSEH" : {
+      "birthday" : 1311963213187,
+      "email" : "Aline@gmail.com",
+      "locationCity" : "Guilford",
+      "name" : "Aline",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 4
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 24
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 4
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 6
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 6
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mI7Sg4nxht2TX5V" : {
+      "birthday" : 1305071592632,
+      "email" : "Shannon@gmail.com",
+      "locationCity" : "Motley",
+      "name" : "Shannon",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 24
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 17
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 21
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 25
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 4
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIAZFQdOGtJ6Ile" : {
+      "birthday" : 1046010443726,
+      "email" : "Clarke@gmail.com",
+      "locationCity" : "Chestnut",
+      "name" : "Clarke",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 15
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 7
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 15
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 4
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 21
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mICTck6Ltv8eZ13" : {
+      "birthday" : 958155501225,
+      "email" : "Kristie@gmail.com",
+      "locationCity" : "Ebro",
+      "name" : "Kristie",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 15
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 25
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 14
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 11
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 22
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 21600000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIFAFbbD7yH5Q5c" : {
+      "birthday" : 774944717972,
+      "email" : "Marcie@gmail.com",
+      "locationCity" : "Wanamie",
+      "name" : "Marcie",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 5
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 4
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 2
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 3
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 25
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIHxD4UsPWxDldm" : {
+      "birthday" : 1316891847511,
+      "email" : "Schmidt@gmail.com",
+      "locationCity" : "Reno",
+      "name" : "Schmidt",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 13
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 17
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 15
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 23
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 18
+      } ],
+      "workHours" : [ {
+        "endTime" : 79200000,
+        "name" : "Sunday",
+        "startTime" : 21600000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIIG3ibB68ULJDC" : {
+      "birthday" : 1074548704330,
+      "email" : "Jeri@gmail.com",
+      "locationCity" : "Cucumber",
+      "name" : "Jeri",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 13
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 23
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 21
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 11
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 21
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIIG3ibB68ULJDD" : {
+      "birthday" : 1352350586992,
+      "email" : "Luz@gmail.com",
+      "locationCity" : "Gasquet",
+      "name" : "Luz",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 16
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 4
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 19
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 10
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIJ45qQHXgW0M19" : {
+      "birthday" : 1041798027264,
+      "email" : "Elliott@gmail.com",
+      "locationCity" : "Centerville",
+      "name" : "Elliott",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 15
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 16
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 3
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 18
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 4
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIKnJVBOK-i7LRa" : {
+      "birthday" : 1149414607869,
+      "email" : "Perez@gmail.com",
+      "locationCity" : "Tetherow",
+      "name" : "Perez",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 4
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 23
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 4
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 14
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIKnJVBOK-i7LRb" : {
+      "birthday" : 1214397573263,
+      "email" : "Parks@gmail.com",
+      "locationCity" : "Vienna",
+      "name" : "Parks",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 19
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 7
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 12
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 25
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 18
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mILg-FquNMWIz1h" : {
+      "birthday" : 747978173456,
+      "email" : "Yates@gmail.com",
+      "locationCity" : "Enoree",
+      "name" : "Yates",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 25
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 19
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 24
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 15
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 23
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 21600000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIMWBQ-FJExej_0" : {
+      "birthday" : 829685346498,
+      "email" : "Barry@gmail.com",
+      "locationCity" : "Sylvanite",
+      "name" : "Barry",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 25
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 20
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 17
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 4
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 16
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIN0blqka1HiOj9" : {
+      "birthday" : 1394314356434,
+      "email" : "Beryl@gmail.com",
+      "locationCity" : "Osmond",
+      "name" : "Beryl",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 6
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 17
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 21
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 11
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 2
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIOYtWaX1mGfFOs" : {
+      "birthday" : 1424982295658,
+      "email" : "Vincent@gmail.com",
+      "locationCity" : "Ladera",
+      "name" : "Vincent",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 11
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 4
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 2
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 3
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 17
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIP5HNd-1OJrWmm" : {
+      "birthday" : 816851333555,
+      "email" : "Warren@gmail.com",
+      "locationCity" : "Nanafalia",
+      "name" : "Warren",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 13
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 18
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 1
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 7
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 25
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIQPQr-U6PrhfJ6" : {
+      "birthday" : 1057477812115,
+      "email" : "Bridgett@gmail.com",
+      "locationCity" : "Waukeenah",
+      "name" : "Bridgett",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 13
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 3
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 20
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 3
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 10
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIQPQr-U6PrhfJ7" : {
+      "birthday" : 1181435203310,
+      "email" : "Jarvis@gmail.com",
+      "locationCity" : "Lloyd",
+      "name" : "Jarvis",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 8
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 17
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 14
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 4
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 6
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mISC9FZsA1z8geD" : {
+      "birthday" : 1182070740758,
+      "email" : "Bolton@gmail.com",
+      "locationCity" : "Mulino",
+      "name" : "Bolton",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 25
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 4
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 19
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 17
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 14
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mITXYcw_UsJNmFH" : {
+      "birthday" : 991439103022,
+      "email" : "Alberta@gmail.com",
+      "locationCity" : "Independence",
+      "name" : "Alberta",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 25
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 12
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 17
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 1
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 24
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIUvu9yUlN7-ty6" : {
+      "birthday" : 1364321476355,
+      "email" : "Armstrong@gmail.com",
+      "locationCity" : "Sussex",
+      "name" : "Armstrong",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 1
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 15
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 14
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 22
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 16
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIV9yRTWJ-CvL3H" : {
+      "birthday" : 1006714423473,
+      "email" : "Shaw@gmail.com",
+      "locationCity" : "Masthope",
+      "name" : "Shaw",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 13
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 10
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 17
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 21
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 19
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIWg9jcRFIDaDOr" : {
+      "birthday" : 1051987852759,
+      "email" : "Dena@gmail.com",
+      "locationCity" : "Carlos",
+      "name" : "Dena",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 5
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 8
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 6
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 6
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIXSjxr9VSX7QqR" : {
+      "birthday" : 960682392572,
+      "email" : "Tanisha@gmail.com",
+      "locationCity" : "Maury",
+      "name" : "Tanisha",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 7
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 19
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 19
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 18
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 21600000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIYJ4B5sq0w7eJq" : {
+      "birthday" : 1371885759207,
+      "email" : "Floyd@gmail.com",
+      "locationCity" : "Manila",
+      "name" : "Floyd",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 22
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 16
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 18
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 15
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 22
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIZtMPoCAofuS9u" : {
+      "birthday" : 1080726873839,
+      "email" : "Angela@gmail.com",
+      "locationCity" : "Yonah",
+      "name" : "Angela",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 13
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 1
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 18
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 22
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 25
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mI_mUPypVWu4LQ5" : {
+      "birthday" : 1405143931701,
+      "email" : "Love@gmail.com",
+      "locationCity" : "Clarktown",
+      "name" : "Love",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 19
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 25
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 7
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 20
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 16
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIaJwqmWpFiusdq" : {
+      "birthday" : 705436707198,
+      "email" : "Hollie@gmail.com",
+      "locationCity" : "Wildwood",
+      "name" : "Hollie",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 2
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 15
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 25
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 14
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 13
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIaJwqmWpFiusdr" : {
+      "birthday" : 737968138256,
+      "email" : "Mara@gmail.com",
+      "locationCity" : "Joppa",
+      "name" : "Mara",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 25
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 25
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 9
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 21
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 13
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 21600000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIbc5LgLt_Lmr_O" : {
+      "birthday" : 790274220823,
+      "email" : "Hutchinson@gmail.com",
+      "locationCity" : "Hackneyville",
+      "name" : "Hutchinson",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 13
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 13
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 8
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 7
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 16
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIc2pDgg31umAEW" : {
+      "birthday" : 696444027685,
+      "email" : "Maynard@gmail.com",
+      "locationCity" : "Vowinckel",
+      "name" : "Maynard",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 6
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 13
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 8
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 18
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 16
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    },
+    "-KWP1mIdYYbIuYVgq6vn" : {
+      "birthday" : 1140834683589,
+      "email" : "Mildred@gmail.com",
+      "locationCity" : "Wattsville",
+      "name" : "Mildred",
+      "photoURL" : "http://tinyurl.com/h9e3jq3",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 22
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 15
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 24
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 16
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 1
+      } ],
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 21600000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 73800000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 75600000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 79200000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 86400000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ]
+    }
+  },
+  "bookingStatus" : {
+    "N0jHqPxQNTaV4dv5Bsq4V1XPX453" : {
+      "-Kc9-PvCA3jHyWSMKCrw" : {
+        "accepted" : false,
+        "babysitter" : {
+          "email" : "abdelelmedny@gmail.com",
+          "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+          "name" : "Abdalla Elmedny"
+        },
+        "children" : [ {
+          "birthday" : 1454540400000,
+          "name" : "test"
+        } ],
+        "cost" : 2.5,
+        "endTime" : 1486186200000,
+        "paid" : false,
+        "parent" : {
+          "email" : "abdallaroc@gmail.com",
+          "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+          "name" : "Abdalla Elmedny"
+        },
+        "role" : "parent",
+        "startTime" : 1486184400000
+      },
+      "-Kc96248fSLkyaSVjwuF" : {
+        "accepted" : false,
+        "babysitter" : {
+          "email" : "abdallaroc@gmail.com",
+          "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+          "name" : "Abdalla Elmedny"
+        },
+        "cancelled" : true,
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "cost" : 20,
+        "endTime" : 1486225800000,
+        "paid" : false,
+        "parent" : {
+          "email" : "parentbabysitting@gmail.com",
+          "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+          "name" : "Parent parent"
+        },
+        "role" : "babysitter",
+        "startTime" : 1486211400000
+      },
+      "-Kc9h0RiSmzbbFddQYM2" : {
+        "accepted" : false,
+        "babysitter" : {
+          "email" : "abdelelmedny@gmail.com",
+          "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+          "name" : "Abdalla Elmedny"
+        },
+        "cancelled" : true,
+        "children" : [ {
+          "birthday" : 1454540400000,
+          "name" : "test"
+        } ],
+        "cost" : 2.5,
+        "endTime" : 1486189800000,
+        "paid" : false,
+        "parent" : {
+          "email" : "abdallaroc@gmail.com",
+          "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+          "name" : "Abdalla Elmedny"
+        },
+        "role" : "parent",
+        "startTime" : 1486188000000
+      },
+      "-Kc9hWDEDAnu_jupZqPd" : {
+        "accepted" : true,
+        "babysitter" : {
+          "email" : "abdelelmedny@gmail.com",
+          "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+          "name" : "Abdalla Elmedny"
+        },
+        "children" : [ {
+          "birthday" : 1454540400000,
+          "name" : "test"
+        } ],
+        "cost" : 15,
+        "endTime" : 1486207800000,
+        "paid" : true,
+        "parent" : {
+          "email" : "abdallaroc@gmail.com",
+          "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+          "name" : "Abdalla Elmedny"
+        },
+        "role" : "parent",
+        "startTime" : 1486197000000
+      },
+      "-Kc9m055BBm9Tsy3ac0Y" : {
+        "accepted" : true,
+        "babysitter" : {
+          "email" : "abdelelmedny@gmail.com",
+          "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+          "name" : "Abdalla Elmedny"
+        },
+        "children" : [ {
+          "birthday" : 1454540400000,
+          "name" : "test"
+        } ],
+        "cost" : 7.5,
+        "endTime" : 1486229400000,
+        "paid" : true,
+        "parent" : {
+          "email" : "abdallaroc@gmail.com",
+          "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+          "name" : "Abdalla Elmedny"
+        },
+        "role" : "parent",
+        "startTime" : 1486224000000
+      }
+    },
+    "hOaQfQp6SmVYRu9SKN3qVEdeJiD2" : {
+      "-KbrB-b-39h3n5Ws8APA" : {
+        "accepted" : false,
+        "babysitter" : {
+          "email" : "abdelelmedny@gmail.com",
+          "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+          "name" : "Abdalla Elmedny"
+        },
+        "cancelled" : true,
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "cost" : 27.5,
+        "endTime" : 1486045800000,
+        "paid" : false,
+        "parent" : {
+          "email" : "parentbabysitting@gmail.com",
+          "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+          "name" : "Parent parent"
+        },
+        "role" : "babysitter",
+        "startTime" : 1486026000000
+      },
+      "-Kc9-PvCA3jHyWSMKCrw" : {
+        "accepted" : false,
+        "babysitter" : {
+          "email" : "abdelelmedny@gmail.com",
+          "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+          "name" : "Abdalla Elmedny"
+        },
+        "children" : [ {
+          "birthday" : 1454540400000,
+          "name" : "test"
+        } ],
+        "cost" : 2.5,
+        "endTime" : 1486186200000,
+        "paid" : false,
+        "parent" : {
+          "email" : "abdallaroc@gmail.com",
+          "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+          "name" : "Abdalla Elmedny"
+        },
+        "role" : "babysitter",
+        "startTime" : 1486184400000
+      },
+      "-Kc9h0RiSmzbbFddQYM2" : {
+        "accepted" : false,
+        "babysitter" : {
+          "email" : "abdelelmedny@gmail.com",
+          "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+          "name" : "Abdalla Elmedny"
+        },
+        "cancelled" : true,
+        "children" : [ {
+          "birthday" : 1454540400000,
+          "name" : "test"
+        } ],
+        "cost" : 2.5,
+        "endTime" : 1486189800000,
+        "paid" : false,
+        "parent" : {
+          "email" : "abdallaroc@gmail.com",
+          "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+          "name" : "Abdalla Elmedny"
+        },
+        "role" : "babysitter",
+        "startTime" : 1486188000000
+      },
+      "-Kc9hWDEDAnu_jupZqPd" : {
+        "accepted" : true,
+        "babysitter" : {
+          "email" : "abdelelmedny@gmail.com",
+          "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+          "name" : "Abdalla Elmedny"
+        },
+        "children" : [ {
+          "birthday" : 1454540400000,
+          "name" : "test"
+        } ],
+        "cost" : 15,
+        "endTime" : 1486207800000,
+        "paid" : true,
+        "parent" : {
+          "email" : "abdallaroc@gmail.com",
+          "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+          "name" : "Abdalla Elmedny"
+        },
+        "role" : "babysitter",
+        "startTime" : 1486197000000
+      },
+      "-Kc9m055BBm9Tsy3ac0Y" : {
+        "accepted" : true,
+        "babysitter" : {
+          "email" : "abdelelmedny@gmail.com",
+          "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+          "name" : "Abdalla Elmedny"
+        },
+        "children" : [ {
+          "birthday" : 1454540400000,
+          "name" : "test"
+        } ],
+        "cost" : 7.5,
+        "endTime" : 1486229400000,
+        "paid" : true,
+        "parent" : {
+          "email" : "abdallaroc@gmail.com",
+          "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+          "name" : "Abdalla Elmedny"
+        },
+        "role" : "babysitter",
+        "startTime" : 1486224000000
+      }
+    },
+    "i9NO9k1TGvc8VsOgQ7V06GB6yMv2" : {
+      "-KbrB-b-39h3n5Ws8APA" : {
+        "accepted" : false,
+        "babysitter" : {
+          "email" : "abdelelmedny@gmail.com",
+          "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+          "name" : "Abdalla Elmedny"
+        },
+        "cancelled" : true,
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "cost" : 27.5,
+        "endTime" : 1486045800000,
+        "paid" : false,
+        "parent" : {
+          "email" : "parentbabysitting@gmail.com",
+          "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+          "name" : "Parent parent"
+        },
+        "role" : "parent",
+        "startTime" : 1486026000000
+      },
+      "-Kc96248fSLkyaSVjwuF" : {
+        "accepted" : false,
+        "babysitter" : {
+          "email" : "abdallaroc@gmail.com",
+          "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+          "name" : "Abdalla Elmedny"
+        },
+        "cancelled" : true,
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "cost" : 20,
+        "endTime" : 1486225800000,
+        "paid" : false,
+        "parent" : {
+          "email" : "parentbabysitting@gmail.com",
+          "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+          "name" : "Parent parent"
+        },
+        "role" : "parent",
+        "startTime" : 1486211400000
+      }
+    }
+  },
+  "company" : {
+    "email" : "example@example.com",
+    "phoneNumber" : "(123)45678999"
+  },
+  "privateBookings" : {
+    "-KXr4KU9OrH3TYxuYXsV" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Sosa@gmail.com",
+        "id" : "-KWP1mHY3P83peqpwHah",
+        "name" : "Sosa",
+        "paid" : false
+      },
+      "cost" : 8,
+      "day" : 1480460400000,
+      "endTime" : 1480489200000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1443650400000,
+          "name" : "Appie"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : true,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1480485600000
+    },
+    "-KYzOvUKNBXjECqFEaK2" : {
+      "babysitter" : {
+        "accepted" : true,
+        "email" : "Franks@gmail.com",
+        "id" : "-KWP1mHPgEZCbCR_gPJ0",
+        "name" : "Franks",
+        "paid" : true
+      },
+      "cost" : 22,
+      "day" : 1481670000000,
+      "endTime" : 1481697000000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1443650400000,
+          "name" : "Appie"
+        }, {
+          "birthday" : 1450047600000,
+          "name" : "Kevin"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : true,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1481695200000
+    },
+    "-KZXvQEV5RzsXd7PfCoK" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Franks@gmail.com",
+        "id" : "-KWP1mHPgEZCbCR_gPJ0",
+        "name" : "Franks",
+        "paid" : false
+      },
+      "cost" : 44,
+      "day" : 1482274800000,
+      "endTime" : 1482303600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1443650400000,
+          "name" : "Appie"
+        }, {
+          "birthday" : 1450047600000,
+          "name" : "Kevin"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1482300000000
+    },
+    "-KZXwZWqkPWcJQtigOTY" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Franks@gmail.com",
+        "id" : "-KWP1mHPgEZCbCR_gPJ0",
+        "name" : "Franks",
+        "paid" : false
+      },
+      "cost" : 110,
+      "day" : 1482447600000,
+      "endTime" : 1482481800000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1443650400000,
+          "name" : "Appie"
+        }, {
+          "birthday" : 1450047600000,
+          "name" : "Kevin"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1482472800000
+    },
+    "-KZXxB50J7Aw872GB0D1" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Franks@gmail.com",
+        "id" : "-KWP1mHPgEZCbCR_gPJ0",
+        "name" : "Franks",
+        "paid" : false
+      },
+      "cost" : 264,
+      "day" : 1482274800000,
+      "endTime" : 1482321600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1450047600000,
+          "name" : "Kevin"
+        }, {
+          "birthday" : 1443650400000,
+          "name" : "Appie"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1482300000000
+    },
+    "-KZbB_fyJ370jCoa8ulw" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Aline@gmail.com",
+        "id" : "-KWP1mI68XBStDLmMSEH",
+        "name" : "Aline",
+        "paid" : false
+      },
+      "cost" : 8,
+      "day" : 1482361200000,
+      "endTime" : 1482436800000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1443650400000,
+          "name" : "Appie"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1482429600000
+    },
+    "-KZlijdJcyhcyNpn9t8j" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Armstrong@gmail.com",
+        "id" : "-KWP1mIUvu9yUlN7-ty6",
+        "name" : "Armstrong",
+        "paid" : false
+      },
+      "cost" : 1,
+      "day" : 1482966000000,
+      "endTime" : 1483021800000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1448924400000,
+          "name" : "test"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1483018200000
+    },
+    "-KZlixuggZU62ORS4hRf" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Cherie@gmail.com",
+        "id" : "-KWP1mHnbfcFZ_qsTOMj",
+        "name" : "Cherie",
+        "paid" : false
+      },
+      "cost" : 24.5,
+      "day" : 1482534000000,
+      "endTime" : 1482611400000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1448924400000,
+          "name" : "test"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1482598800000
+    },
+    "-KZmLbfp2oDtOQ1FWdJd" : {
+      "babysitter" : {
+        "accepted" : true,
+        "email" : "Lenora@gmail.com",
+        "id" : "-KWP1mHX1QKKie3iBPB2",
+        "name" : "Lenora",
+        "paid" : false
+      },
+      "cost" : 18,
+      "day" : 1482534000000,
+      "endTime" : 1482562800000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1449010800000,
+          "name" : "tet"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : true,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1482559200000
+    },
+    "-KZxB98Law624SGMWQjP" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Aline@gmail.com",
+        "id" : "-KWP1mI68XBStDLmMSEH",
+        "name" : "Aline",
+        "paid" : false
+      },
+      "cost" : 6,
+      "day" : 1482732000000,
+      "endTime" : 1482775200000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1420092000000,
+          "name" : "Baby001"
+        } ],
+        "email" : "testparent002@gmail.com",
+        "id" : "ixmZ2ePojYPG0I390PbHM8doFqA3",
+        "name" : "testparent002",
+        "paid" : false,
+        "street" : "123 Main St",
+        "zipcode" : "77777"
+      },
+      "startTime" : 1482769800000
+    },
+    "-KZxD62tAPflhEXL195c" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Doreen@gmail.com",
+        "id" : "-KWP1mI03gK_k2t7MMNB",
+        "name" : "Doreen",
+        "paid" : false
+      },
+      "cost" : 25.5,
+      "day" : 1482818400000,
+      "endTime" : 1482877800000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1420092000000,
+          "name" : "Baby001"
+        } ],
+        "email" : "testparent002@gmail.com",
+        "id" : "ixmZ2ePojYPG0I390PbHM8doFqA3",
+        "name" : "testparent002a",
+        "paid" : false,
+        "street" : "123 Main St",
+        "zipcode" : "77777"
+      },
+      "startTime" : 1482872400000
+    },
+    "-KaKZ8jGOL2DKG8CUFLk" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Floyd@gmail.com",
+        "id" : "-KWP1mIYJ4B5sq0w7eJq",
+        "name" : "Floyd",
+        "paid" : false
+      },
+      "cost" : 32,
+      "day" : 1484287200000,
+      "endTime" : 1484366400000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1385877600000,
+          "name" : "Jim"
+        } ],
+        "email" : "testparent011@gmail.com",
+        "id" : "OSheDlLaZVO4wC5OVrCWYW36t2E2",
+        "name" : "John Doe",
+        "paid" : false,
+        "street" : "100 Main",
+        "zipcode" : "77777"
+      },
+      "startTime" : 1484359200000
+    },
+    "-KaKb6_SV-jG-qQi2BSq" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Jeri@gmail.com",
+        "id" : "-KWP1mIIG3ibB68ULJDC",
+        "name" : "Jeri",
+        "paid" : false
+      },
+      "cost" : 46,
+      "day" : 1484460000000,
+      "endTime" : 1484521200000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1385877600000,
+          "name" : "Jim"
+        } ],
+        "email" : "testparent011@gmail.com",
+        "id" : "OSheDlLaZVO4wC5OVrCWYW36t2E2",
+        "name" : "John Doe",
+        "paid" : false,
+        "street" : "100 Main",
+        "zipcode" : "77777"
+      },
+      "startTime" : 1484514000000
+    },
+    "-KaKbKSEjnSqt6DRpaji" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Jeri@gmail.com",
+        "id" : "-KWP1mIIG3ibB68ULJDC",
+        "name" : "Jeri",
+        "paid" : false
+      },
+      "cost" : 23,
+      "day" : 1484719200000,
+      "endTime" : 1484748000000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1385877600000,
+          "name" : "Jim"
+        } ],
+        "email" : "testparent011@gmail.com",
+        "id" : "OSheDlLaZVO4wC5OVrCWYW36t2E2",
+        "name" : "John Doe",
+        "paid" : false,
+        "street" : "100 Main",
+        "zipcode" : "77777"
+      },
+      "startTime" : 1484744400000
+    },
+    "-KaKbYqcYtiSifOUqNz3" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Jeri@gmail.com",
+        "id" : "-KWP1mIIG3ibB68ULJDC",
+        "name" : "Jeri",
+        "paid" : false
+      },
+      "cost" : 23,
+      "day" : 1484719200000,
+      "endTime" : 1484748000000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1385877600000,
+          "name" : "Jim"
+        } ],
+        "email" : "testparent011@gmail.com",
+        "id" : "OSheDlLaZVO4wC5OVrCWYW36t2E2",
+        "name" : "John Doe",
+        "paid" : false,
+        "street" : "100 Main",
+        "zipcode" : "77777"
+      },
+      "startTime" : 1484744400000
+    },
+    "-KagXu54wll4FDfdVdDO" : {
+      "babysitter" : {
+        "accepted" : true,
+        "email" : "Franks@gmail.com",
+        "id" : "-KWP1mHPgEZCbCR_gPJ0",
+        "name" : "Frankss",
+        "paid" : false
+      },
+      "cost" : 22,
+      "day" : 1484866800000,
+      "endTime" : 1484910000000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452034800000,
+          "name" : "test"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : true,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1484906400000
+    },
+    "-KagZJCXEJrlTO36NZbS" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Lenora@gmail.com",
+        "id" : "-KWP1mHX1QKKie3iBPB2",
+        "name" : "Lenora",
+        "paid" : false
+      },
+      "cost" : 18,
+      "day" : 1484607600000,
+      "endTime" : 1484638200000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452034800000,
+          "name" : "test"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1484634600000
+    },
+    "-KamFmwtc5Xs7nTJ5XZZ" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Aline@gmail.com",
+        "id" : "-KWP1mI68XBStDLmMSEH",
+        "name" : "Aline",
+        "paid" : false
+      },
+      "cost" : 12,
+      "day" : 1484780400000,
+      "endTime" : 1484829000000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452034800000,
+          "name" : "test"
+        }, {
+          "birthday" : 1452121200000,
+          "name" : "test"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1484823600000
+    },
+    "-Kb13i0jzb1yjwZJAiai" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Franks@gmail.com",
+        "id" : "-KWP1mHPgEZCbCR_gPJ0",
+        "name" : "Frankss",
+        "paid" : false
+      },
+      "cost" : 22,
+      "day" : 1484953200000,
+      "endTime" : 1484974800000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1451602800000,
+          "name" : "rtqatgaga"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1484971200000
+    },
+    "-Kb1BEPUkykKiMRufvA9" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Lenora@gmail.com",
+        "id" : "-KWP1mHX1QKKie3iBPB2",
+        "name" : "Lenora",
+        "paid" : false
+      },
+      "cost" : 18,
+      "day" : 1484953200000,
+      "endTime" : 1484985600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1451602800000,
+          "name" : "rtqatgaga"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1484982000000
+    },
+    "-Kb1VvLVc98Q5IGxkCf2" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Sosa@gmail.com",
+        "id" : "-KWP1mHY3P83peqpwHah",
+        "name" : "Sosa",
+        "paid" : false
+      },
+      "cost" : 8,
+      "day" : 1484953200000,
+      "endTime" : 1484982000000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1451602800000,
+          "name" : "rtqatgaga"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1484978400000
+    },
+    "-Kb1aBKxDo-OqqvwQUl4" : {
+      "babysitter" : {
+        "accepted" : true,
+        "email" : "Franks@gmail.com",
+        "id" : "-KWP1mHPgEZCbCR_gPJ0",
+        "name" : "Frankss",
+        "paid" : false
+      },
+      "cost" : 22,
+      "day" : 1484953200000,
+      "endTime" : 1484974800000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1451602800000,
+          "name" : "Test child"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : true,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1484971200000
+    },
+    "-Kb1fgFnO8WhzWlnPLIt" : {
+      "babysitter" : {
+        "accepted" : true,
+        "email" : "Booker@gmail.com",
+        "id" : "-KWP1mHZ4jOeDMiG2jUP",
+        "name" : "Booker",
+        "paid" : false
+      },
+      "cost" : 400,
+      "day" : 1484953200000,
+      "endTime" : 1484985600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1451602800000,
+          "name" : "Test child"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : true,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1484978400000
+    },
+    "-Kb6vzEQsKHGuxG6sD5j" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Aline@gmail.com",
+        "id" : "-KWP1mI68XBStDLmMSEH",
+        "name" : "Aline",
+        "paid" : false
+      },
+      "cost" : 24,
+      "day" : 1485151200000,
+      "endTime" : 1485183600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1388556000000,
+          "name" : "Jim Doe"
+        } ],
+        "email" : "testparent001@gmail.com",
+        "id" : "890ugtTucXfKIOqp0JVrK4EDCxv1",
+        "name" : "John Doe",
+        "paid" : false,
+        "street" : "123 Main",
+        "zipcode" : "77777"
+      },
+      "startTime" : 1485180000000
+    },
+    "-KbFYOu_cPUtDgLGuXE_" : {
+      "babysitter" : {
+        "accepted" : true,
+        "email" : "Aline@gmail.com",
+        "id" : "-KWP1mI68XBStDLmMSEH",
+        "name" : "Aline",
+        "paid" : false
+      },
+      "cost" : 4,
+      "day" : 1485298800000,
+      "endTime" : 1485342000000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1413410400000,
+          "name" : "test"
+        } ],
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : true,
+        "street" : "Insulindeweg, 66F",
+        "zipcode" : "1094PN"
+      },
+      "startTime" : 1485338400000
+    },
+    "-KbJ0-69cf6eYJSdNnMb" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Floyd@gmail.com",
+        "id" : "-KWP1mIYJ4B5sq0w7eJq",
+        "name" : "Floyd",
+        "paid" : false
+      },
+      "cost" : 33,
+      "day" : 1485324000000,
+      "endTime" : 1485358200000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1420092000000,
+          "name" : "Baby Jenna"
+        } ],
+        "email" : "mkpatil@gmail.com",
+        "id" : "gqZW7dDEInZm90CwgflMccAZuNG2",
+        "name" : "John Doe Parent",
+        "paid" : false,
+        "street" : "1234 Main",
+        "zipcode" : "777777"
+      },
+      "startTime" : 1485352800000
+    },
+    "-KbLSEqjeGZlA4k5fzgA" : {
+      "babysitter" : {
+        "accepted" : true,
+        "email" : "Armstrong@gmail.com",
+        "id" : "-KWP1mIUvu9yUlN7-ty6",
+        "name" : "Armstrong",
+        "paid" : false
+      },
+      "cost" : 1,
+      "day" : 1501452000000,
+      "endTime" : 1501480800000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1419462000000,
+          "name" : "tet"
+        } ],
+        "email" : "abdallaroc@gmail.com",
+        "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+        "name" : "Abdalla Elmedny",
+        "paid" : true,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1095PN"
+      },
+      "startTime" : 1501477200000
+    },
+    "-KbpN0R1pT61dx0KKngJ" : {
+      "babysitter" : {
+        "accepted" : true,
+        "email" : "Schmidt@gmail.com",
+        "id" : "-KWP1mIHxD4UsPWxDldm",
+        "name" : "Schmidt",
+        "paid" : false
+      },
+      "cost" : 6.5,
+      "day" : 1485817200000,
+      "endTime" : 1485869400000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1419462000000,
+          "name" : "tet"
+        } ],
+        "email" : "abdallaroc@gmail.com",
+        "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+        "name" : "Abdalla Elmedny",
+        "paid" : true,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1095PN"
+      },
+      "startTime" : 1485867600000
+    },
+    "-KbpgxgtZqs-inAJz_8R" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "Floyd@gmail.com",
+        "id" : "-KWP1mIYJ4B5sq0w7eJq",
+        "name" : "Floyd",
+        "paid" : false
+      },
+      "cost" : 22,
+      "day" : 1485817200000,
+      "endTime" : 1485867600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1419462000000,
+          "name" : "tet"
+        } ],
+        "email" : "abdallaroc@gmail.com",
+        "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+        "name" : "Abdalla Elmedny",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1095PN"
+      },
+      "startTime" : 1485864000000
+    },
+    "-KbpkFEPzF6Wh-76VnAa" : {
+      "babysitter" : {
+        "accepted" : true,
+        "email" : "Doreen@gmail.com",
+        "id" : "-KWP1mI03gK_k2t7MMNB",
+        "name" : "Doreen",
+        "paid" : false
+      },
+      "cost" : 17,
+      "day" : 1485817200000,
+      "endTime" : 1485867600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1419462000000,
+          "name" : "tet"
+        } ],
+        "email" : "abdallaroc@gmail.com",
+        "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+        "name" : "Abdalla Elmedny",
+        "paid" : true,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1095PN"
+      },
+      "startTime" : 1485864000000
+    },
+    "-KbqD7VH6qNZVerFUTBG" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 2.5,
+      "day" : 1485817200000,
+      "endTime" : 1485846000000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1485844200000
+    },
+    "-KbqDyXroMBXbFCxOT1t" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 5,
+      "day" : 1485817200000,
+      "endTime" : 1485865800000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1485862200000
+    },
+    "-KbqFrHZhyG617MNOJ02" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 10,
+      "day" : 1485817200000,
+      "endTime" : 1485883800000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1485876600000
+    },
+    "-KbqG9uJGhZTXs1LIJHJ" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 32.5,
+      "day" : 1485817200000,
+      "endTime" : 1485876600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1485853200000
+    },
+    "-KbqHaPcf1QVENzmsltY" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 7.5,
+      "day" : 1485817200000,
+      "endTime" : 1485847800000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1485842400000
+    },
+    "-KbqI1bsv37fODxfi7ll" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 32.5,
+      "day" : 1485817200000,
+      "endTime" : 1485874800000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1485851400000
+    },
+    "-KbqMmaS3zIz0x_A3eaA" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 7.5,
+      "day" : 1485817200000,
+      "endTime" : 1485867600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1485862200000
+    },
+    "-KbqNx1Fwm4zc58FCJy7" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 17.5,
+      "day" : 1485817200000,
+      "endTime" : 1485864000000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1485851400000
+    },
+    "-KbqObNVGztQBWaZbez6" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 2.5,
+      "day" : 1485817200000,
+      "endTime" : 1485860400000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1485858600000
+    },
+    "-KbqOvXOJ7ELFcsBsGWo" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 37.5,
+      "day" : 1485817200000,
+      "endTime" : 1485887400000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1485860400000
+    },
+    "-Kbr7Hlq4XfSlWXa57i5" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 17.5,
+      "day" : 1485903600000,
+      "endTime" : 1485934200000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1485921600000
+    },
+    "-Kbr8fLi5VCCRew8-ung" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 35,
+      "day" : 1486076400000,
+      "endTime" : 1486137600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1486112400000
+    },
+    "-Kbr8gQz-OCOhNn_JZnh" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 35,
+      "day" : 1486076400000,
+      "endTime" : 1486137600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1486112400000
+    },
+    "-Kc9-PvCA3jHyWSMKCrw" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 2.5,
+      "day" : 1486162800000,
+      "endTime" : 1486186200000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1454540400000,
+          "name" : "test"
+        } ],
+        "email" : "abdallaroc@gmail.com",
+        "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+        "name" : "Abdalla Elmedny",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1095PN"
+      },
+      "startTime" : 1486184400000
+    },
+    "-Kc9hWDEDAnu_jupZqPd" : {
+      "babysitter" : {
+        "accepted" : true,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 15,
+      "day" : 1486162800000,
+      "endTime" : 1486207800000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1454540400000,
+          "name" : "test"
+        } ],
+        "email" : "abdallaroc@gmail.com",
+        "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+        "name" : "Abdalla Elmedny",
+        "paid" : true,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1095PN"
+      },
+      "startTime" : 1486197000000
+    },
+    "-Kc9m055BBm9Tsy3ac0Y" : {
+      "babysitter" : {
+        "accepted" : true,
+        "email" : "abdelelmedny@gmail.com",
+        "id" : "hOaQfQp6SmVYRu9SKN3qVEdeJiD2",
+        "name" : "Abdalla Elmedny",
+        "paid" : false
+      },
+      "cost" : 7.5,
+      "day" : 1486162800000,
+      "endTime" : 1486229400000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1454540400000,
+          "name" : "test"
+        } ],
+        "email" : "abdallaroc@gmail.com",
+        "id" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+        "name" : "Abdalla Elmedny",
+        "paid" : true,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1095PN"
+      },
+      "startTime" : 1486224000000
+    },
+    "-Kc9rY9MG_Wj_32UsVI_" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "testbabysitter001@gmail.com",
+        "id" : "IJYqMw1RlFbAShTYi6jPE8bKeEG2",
+        "name" : "Jane Doe",
+        "paid" : false
+      },
+      "cost" : 10,
+      "day" : 1486162800000,
+      "endTime" : 1486191600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1486188000000
+    },
+    "-Kc9s_ql0FMLVFjyssIj" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "testbabysitter001@gmail.com",
+        "id" : "IJYqMw1RlFbAShTYi6jPE8bKeEG2",
+        "name" : "Jane Doe",
+        "paid" : false
+      },
+      "cost" : 10,
+      "day" : 1486162800000,
+      "endTime" : 1486191600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1486188000000
+    },
+    "-Kc9uIkzsrLO4oF3zGAt" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "testbabysitter001@gmail.com",
+        "id" : "IJYqMw1RlFbAShTYi6jPE8bKeEG2",
+        "name" : "Jane Doe",
+        "paid" : false
+      },
+      "cost" : 10,
+      "day" : 1486162800000,
+      "endTime" : 1486191600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1486188000000
+    },
+    "-Kc9vFNX5Ty2arO87pRW" : {
+      "babysitter" : {
+        "accepted" : false,
+        "email" : "testbabysitter001@gmail.com",
+        "id" : "IJYqMw1RlFbAShTYi6jPE8bKeEG2",
+        "name" : "Jane Doe",
+        "paid" : false
+      },
+      "cost" : 10,
+      "day" : 1486162800000,
+      "endTime" : 1486191600000,
+      "parent" : {
+        "children" : [ {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        } ],
+        "email" : "parentbabysitting@gmail.com",
+        "id" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+        "name" : "Parent parent",
+        "paid" : false,
+        "street" : "Insulindeweg, 66g",
+        "zipcode" : "1093PN"
+      },
+      "startTime" : 1486188000000
+    }
+  },
+  "users" : {
+    "890ugtTucXfKIOqp0JVrK4EDCxv1" : {
+      "birthDay" : 883634400000,
+      "children" : {
+        "-K_7NyAzG-BUghq-eFyq" : {
+          "birthday" : 1388556000000,
+          "name" : "Jim Doe"
+        }
+      },
+      "email" : "testparent001@gmail.com",
+      "locationCity" : "Houston",
+      "name" : "John Doe",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "street" : "123 Main",
+      "userType" : {
+        "babySitter" : false,
+        "parent" : true
+      },
+      "zipCode" : "77777"
+    },
+    "EikEr5PTRxcGJm2p9TAKrxlP8Mg1" : {
+      "birthDay" : 915516000000,
+      "email" : "testparent005@gmail.com",
+      "locationCity" : "Houston",
+      "name" : "Joe",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 5
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "userType" : {
+        "babySitter" : true,
+        "parent" : false
+      }
+    },
+    "GJOitBRAwdTCB5OLgfqt9pNTBAC2" : {
+      "birthDay" : 915170400000,
+      "email" : "testparent003@gmail.com",
+      "locationCity" : "Houston",
+      "name" : "Joe1",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 7
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "userType" : {
+        "babySitter" : true,
+        "parent" : false
+      }
+    },
+    "IJYqMw1RlFbAShTYi6jPE8bKeEG2" : {
+      "birthDay" : 315554400000,
+      "email" : "testbabysitter001@gmail.com",
+      "locationCity" : "Houston",
+      "name" : "Jane Doe",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 10
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "userType" : {
+        "babySitter" : true,
+        "parent" : false
+      }
+    },
+    "N0jHqPxQNTaV4dv5Bsq4V1XPX453" : {
+      "birthDay" : 917823600000,
+      "children" : {
+        "-Kc9-KWL7LPrdtPmeGcO" : {
+          "birthday" : 1454540400000,
+          "name" : "test"
+        }
+      },
+      "email" : "abdallaroc@gmail.com",
+      "locationCity" : "Amsterdam",
+      "name" : "Abdalla Elmedny",
+      "photoURL" : "https://lh5.googleusercontent.com/-_DzMzmsHKbk/AAAAAAAAAAI/AAAAAAAAESY/8EW9eDdwWnY/photo.jpg",
+      "street" : "Insulindeweg, 66g",
+      "uid" : "N0jHqPxQNTaV4dv5Bsq4V1XPX453",
+      "userType" : {
+        "babySitter" : false,
+        "parent" : true
+      },
+      "zipCode" : "1095PN"
+    },
+    "OSheDlLaZVO4wC5OVrCWYW36t2E2" : {
+      "birthDay" : 915170400000,
+      "children" : {
+        "-KaKdoi30gqUaKpozgPy" : {
+          "birthday" : 1388556000000,
+          "name" : "Jim"
+        }
+      },
+      "email" : "testparent011@gmail.com",
+      "locationCity" : "Houston",
+      "name" : "John Doe",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "street" : "100 Main",
+      "userType" : {
+        "babySitter" : false,
+        "parent" : true
+      },
+      "zipCode" : "77777"
+    },
+    "VXjsxGwTWbeaWuQSwlhISLfzhV03" : {
+      "birthDay" : 907279200000,
+      "children" : {
+        "-KVLe-2RpnmIO3HEpJCK" : {
+          "birthday" : 1209592800000,
+          "name" : "Appie"
+        },
+        "-KVLe-IhArsmCNK2IQRf" : {
+          "birthday" : 1201820400000,
+          "name" : "steef"
+        }
+      },
+      "email" : "foobar@gmail.com",
+      "locationCity" : "Amsterdam",
+      "name" : "appie",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "street" : "Insulindeweg, 66",
+      "userType" : {
+        "babySitter" : false,
+        "parent" : true
+      },
+      "zipCode" : "1095PN"
+    },
+    "Wgxuy4O24obQIgtTYsYPjmllM0f2" : {
+      "birthDay" : 653695200000,
+      "email" : "tedvoorend@gmail.com",
+      "locationCity" : "Amsterdam",
+      "name" : "Ted Voorend",
+      "photoURL" : "https://lh6.googleusercontent.com/-ZSQQwITGHMY/AAAAAAAAAAI/AAAAAAAAAKg/j4Pj6BZv0zc/photo.jpg",
+      "street" : "Koningin Wilhelminaplein, 800",
+      "uid" : "Wgxuy4O24obQIgtTYsYPjmllM0f2",
+      "userType" : {
+        "babySitter" : false,
+        "parent" : true
+      },
+      "zipCode" : "1062KS"
+    },
+    "f6w1xdzgKgh8QyE6LN2ZIPFbt7n2" : {
+      "birthDay" : 912553200000,
+      "email" : "testtest@gmail.com",
+      "locationCity" : "a",
+      "name" : "Appie",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 5
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "street" : "b",
+      "userType" : {
+        "babySitter" : true,
+        "parent" : true
+      },
+      "zipCode" : "c"
+    },
+    "gqZW7dDEInZm90CwgflMccAZuNG2" : {
+      "birthDay" : 915170400000,
+      "children" : {
+        "-Kb7-EMOEG7Vczfk40CM" : {
+          "birthday" : 1420092000000,
+          "name" : "Baby Jenna"
+        }
+      },
+      "email" : "mkpatil@gmail.com",
+      "locationCity" : "Houston",
+      "name" : "John Doe Parent",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "street" : "1234 Main",
+      "userType" : {
+        "babySitter" : false,
+        "parent" : true
+      },
+      "zipCode" : "777777"
+    },
+    "hOaQfQp6SmVYRu9SKN3qVEdeJiD2" : {
+      "birthDay" : 907192800000,
+      "email" : "abdelelmedny@gmail.com",
+      "locationCity" : "Amsterdam",
+      "name" : "Abdalla Elmedny",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 5
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "street" : "Insulindeweg, 66F",
+      "userType" : {
+        "babySitter" : true,
+        "parent" : true
+      },
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 37800000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 27000000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 18000000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 66600000,
+        "name" : "Saturday",
+        "startTime" : 18000000
+      } ],
+      "zipCode" : "1094PN"
+    },
+    "i9NO9k1TGvc8VsOgQ7V06GB6yMv2" : {
+      "birthDay" : 916095600000,
+      "children" : {
+        "-Kbq9lJfSt1WfOCMx2_V" : {
+          "birthday" : 1452294000000,
+          "name" : "test"
+        }
+      },
+      "email" : "parentbabysitting@gmail.com",
+      "locationCity" : "Amsterdam",
+      "name" : "Parent parent",
+      "photoURL" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 5
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "street" : "Insulindeweg, 66g",
+      "uid" : "i9NO9k1TGvc8VsOgQ7V06GB6yMv2",
+      "userType" : {
+        "babySitter" : true,
+        "parent" : true
+      },
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ],
+      "zipCode" : "1093PN"
+    },
+    "ixmZ2ePojYPG0I390PbHM8doFqA3" : {
+      "birthDay" : 823500000000,
+      "children" : {
+        "-KZxAp4OTD2Ctm0aCP9K" : {
+          "birthday" : 1420092000000,
+          "name" : "Baby001"
+        }
+      },
+      "email" : "testparent002@gmail.com",
+      "locationCity" : "Houston",
+      "name" : "testparent002a",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "street" : "123 Main St",
+      "userType" : {
+        "babySitter" : false,
+        "parent" : true
+      },
+      "zipCode" : "77777"
+    },
+    "o1OH5wnzNKfuAVwqTVqIJpyAjMy1" : {
+      "birthDay" : 915490800000,
+      "email" : "abdallaelmedny@hotmail.com",
+      "locationCity" : "tertat",
+      "name" : "test",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "street" : "taetata",
+      "userType" : {
+        "babySitter" : false,
+        "parent" : false
+      },
+      "workHours" : [ {
+        "endTime" : 72000000,
+        "name" : "Sunday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Monday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Tuesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Wednesday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Thursday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Friday",
+        "startTime" : 25200000
+      }, {
+        "endTime" : 72000000,
+        "name" : "Saturday",
+        "startTime" : 25200000
+      } ],
+      "zipCode" : "tataarattatata"
+    },
+    "qY8JOCn1IPP1hcq2zeLdPZlAiWY2" : {
+      "birthDay" : -15210000000,
+      "children" : {
+        "-KZb9psrW5L0OIOxelKN" : {
+          "birthday" : 1448924400000,
+          "name" : "Raimond"
+        }
+      },
+      "email" : "bob@inventdesign.nl",
+      "locationCity" : "Amsterdam",
+      "name" : "Bob van Loosen",
+      "photoURL" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "uid" : "qY8JOCn1IPP1hcq2zeLdPZlAiWY2",
+      "userType" : {
+        "babySitter" : true,
+        "parent" : false
+      }
+    },
+    "zrsjUpKX4WTaqwSexfvXAbJs5Pr2" : {
+      "birthDay" : 883634400000,
+      "email" : "mkpatil@live.com",
+      "locationCity" : "Houston",
+      "name" : "Mary Babysitter",
+      "photoURL" : "https://i.gyazo.com/7fe293e6af9d0bc2dd9fe105679b21e1.png",
+      "pricing" : [ {
+        "codename" : "A",
+        "description" : "Age group 1 - 2",
+        "rate" : 5
+      }, {
+        "codename" : "B",
+        "description" : "Age group 2 - 5",
+        "rate" : 5
+      }, {
+        "codename" : "C",
+        "description" : "Age group 5 - 8",
+        "rate" : 5
+      }, {
+        "codename" : "D",
+        "description" : "Age group 8 - 12",
+        "rate" : 5
+      }, {
+        "codename" : "E",
+        "description" : "Age group 12 - 16",
+        "rate" : 5
+      } ],
+      "userType" : {
+        "babySitter" : true,
+        "parent" : false
+      }
+    }
+  }
+}

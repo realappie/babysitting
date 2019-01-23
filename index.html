@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="babysitting">
+
+<head>
+    <title ng-bind=" 'Babysitting | ' + $state.current.data.pageTitle"></title>
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="dist/styling/app.css">
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css" async>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300i,400" rel="stylesheet" async>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" async>
+    <!-- Scripts -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-material/angular-material.min.js"></script>
+    <script src="bower_components/angularfire/dist/angularfire.min.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.min.js"></script>
+    <script src="bower_components/angular-order-object-by/src/ng-order-object-by.js"></script>
+    <script src="bower_components/firebase/firebase.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
+    <script src="dist/scripts/app.js"></script>
+    <script src="https://use.fonticons.com/4b39c0ac.js" async></script>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="Author" content="Abdalla Elmedny">
+    <meta name="theme-color" content="#2196f3">
+</head>
+
+<body ng-controller="mainCtrl">
+    <!-- Navigation & toast -->
+    <div ng-include="'pages/navigation.html'"></div>
+    <!-- Content of application -->
+    <section ng-class="state.current.name" ui-view></section>
+    <div id="toast"><span id="toastText"></span></div>
+</body>
+
+</html>

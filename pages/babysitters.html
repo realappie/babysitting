@@ -1,0 +1,73 @@
+<!-- <pre>{{babysitters | json}}</pre> -->
+<md-progress-circular md-diameter="100" ng-if="!babysittersLoaded"></md-progress-circular>
+<md-list ng-if="babysittersLoaded">
+    <md-list-item 
+        class="md-2-line" 
+        ng-repeat="(key, babysitter) in babysitters" 
+        ui-sref="booking({uid:key})"
+        ng-if="currentUser.$id !== key">
+        <img src="{{babysitter.photoURL}}" class="md-avatar" alt="profile picture">
+        <div class="md-list-item-text">
+            <h3>{{babysitter.name}}</h3>
+            <p>{{babysitter.email}}</p>
+        </div>
+        <md-button class="md-primary desktop" ng-click="moreInfo(babysitter,key,$event)">More Info</md-button>
+        <md-button class="md-secondary md-icon-button mobile" ng-click="moreInfo(babysitter,key,$event)" aria-label="more info">
+            <md-icon><i class="material-icons">info</i></md-icon>
+        </md-button>
+    </md-list-item>
+</md-list>
+
+<div id="noBabysitter" ng-if="noBabysitters">
+    <i class="material-icons">announcement</i>
+    <p>There are currently no babysitters to choose from</p>
+</div>
+<md-divider></md-divider>
+<md-button ng-click="loadMore()" ng-if="!noBabysitters" ng-disabled="max" id="loadMore">load More</md-button>
+<div style="visibility: hidden">
+    <div class="md-dialog-container" id="babySitterDialog">
+        <md-dialog aria-label="Babysitter dialog">
+            <md-dialog-content class="md-dialog-content">
+                <h2>{{babysitter.name}}</h2>
+                <md-list ng-cloak>
+                    <md-subheader class="md-no-sticky">Pricing</md-subheader>
+                    <md-list-item ng-repeat="group in babysitter.pricing">
+                        <md-icon> <i class="material-icons">group_work</i></md-icon>
+                        <p>{{group.description}}</p>
+                        <p class="rate">{{group.rate | currency}}</p>
+                    </md-list-item>
+                </md-list>
+                <md-list>
+                    <md-subheader class="md-no-sticky">Babysitter information</md-subheader>
+                    <md-list-item>
+                        <md-icon><i class="material-icons">email</i></md-icon>
+                        <p>{{babysitter.email}}</p>
+                    </md-list-item>
+                    <md-list-item>
+                        <md-icon><i class="material-icons">date_range</i></md-icon>
+                        <p>{{calculateAge(babysitter.birthDay)}} year's old</p>
+                    </md-list-item>
+                    <md-list-item>
+                        <md-icon><i class="material-icons">location_city</i></md-icon>
+                        <p>{{babysitter.locationCity}}</p>
+                    </md-list-item>
+                </md-list>
+            </md-dialog-content>
+            <md-dialog-actions>
+                <md-button class="md-primary" aria-label="Email" ng-click="email(babysitter.email)">
+                    <i class="material-icons">email</i> Email
+                </md-button>
+                <md-button class="md-primary md-hue-2" aria-label="Book" ui-sref="booking({uid:uid})">
+                    <i class="material-icons">event</i> Book
+                </md-button>
+                <!-- <md-button class="md-icon-button" aria-label="Email" ng-click="goToBabySitter(babysitter)">
+        <md-icon> <i class="material-icons">event</i></md-icon>
+      </md-button> -->
+                <md-button ng-click="closeDialog()" class="md-warn">Close</md-button>
+            </md-dialog-actions>
+        </md-dialog>
+    </div>
+</div>
+
+
+<!-- <pre>{{availableStates | json}}</pre> -->

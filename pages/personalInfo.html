@@ -1,0 +1,96 @@
+<h2>Your Profile Information</h2>
+<md-progress-circular md-mode="indeterminate" ng-if="!currentUserLoaded"></md-progress-circular>
+<form ng-if="currentUserLoaded" name="userForm">
+    <md-input-container class="md-icon-float md-block">
+        <label>User name</label>
+        <md-icon><i class="material-icons">account_circle</i></md-icon>
+        <input ng-model="user.name" name="name" type="text" required>
+        <div ng-messages="userForm.name.$error">
+            <div ng-message="required">Your username is required</div>
+        </div>
+    </md-input-container>
+    <md-input-container class="md-icon-float md-block">
+        <label>City location</label>
+        <md-icon><i class="material-icons">location_city</i></md-icon>
+        <input ng-model="user.locationCity" name="locationCity" type="text" required>
+        <div ng-messages="userForm.locationCity.$error">
+            <div ng-message="required">The location of your city is required</div>
+        </div>
+    </md-input-container>
+    <md-input-container class="md-icon-float md-block" ng-if="currentUser.userType.parent">
+        <label>ZIP code</label>
+        <md-icon><i class="material-icons">my_location</i></md-icon>
+        <input ng-model="user.zipCode" name="zipCode" type="text" required>
+        <div ng-messages="userForm.zipCode.$error">
+            <div ng-message="required">Your zipcode is required</div>
+        </div>
+    </md-input-container>
+    <md-input-container class="md-icon-float md-block" ng-if="currentUser.userType.parent">
+        <label>Street</label>
+        <md-icon><i class="material-icons">directions</i></md-icon>
+        <input ng-model="user.street" name="street" type="text" required>
+        <div ng-messages="userForm.street.$error">
+            <div ng-message="required">Your street is required</div>
+        </div>
+    </md-input-container>
+    <md-button class="md-raised" aria-label="Update Personal information" ng-click="updateProfile()" ng-disabled="userForm.$invalid">
+        Update
+    </md-button>
+</form>
+<md-list ng-if="currentUserLoaded" id="accountTypeSettings">
+    <md-subheader class="md-no-sticky">Account Type</md-subheader>
+   <!--  <md-list-item>
+        <md-icon><i class="material-icons">person</i></md-icon>
+        <p>Parent </p>
+        <md-switch class="md-secondary" ng-model="currentUser.userType.parent"></md-switch>
+    </md-list-item>
+    <md-list-item>
+        <md-icon><i class="material-icons">child_friendly</i></md-icon>
+        <p>Babysitter </p>
+        <md-switch class="md-secondary" ng-model="currentUser.userType.babySitter"></md-switch>
+    </md-list-item>  -->
+    <md-list-item ng-repeat="userType in userTypes">
+        <md-icon><i class="material-icons">{{userType.icon}}</i></md-icon>
+        <p>{{userType.description}}</p>
+        <md-switch class="md-secondary" ng-model="userType.model" ng-change="updateUserType(userType)"></md-switch>
+    </md-list-item>
+</md-list>
+
+<h2>Your bookings</h2>
+<md-progress-circular md-mode="indeterminate" ng-if="!bookingsLoaded"></md-progress-circular>
+<div id="emptyBookings" ng-if="emptyBookings && bookingsLoaded">
+    <i class="material-icons">history</i>
+    <p>Your booking history is empty</p>
+</div>
+
+<md-list ng-if="bookings">
+    <md-list-item class="md-2-line" ng-repeat="(key,booking) in bookings">
+        <div class="md-avatar">
+            <i class="material-icons">book</i>
+        </div>
+        <div class="md-list-item-text">
+            <h3>Booking with {{booking.babysitter.name}}</h3>
+            <h4>Status: 
+                <span ng-class="{
+                        orange: (!booking.accepted || !booking.paid), 
+                        green: (booking.paid && booking.accepted),
+                        red: booking.cancelled}"
+                >
+                    <span ng-if="!booking.accepted && !booking.cancelled">
+                        Awaiting {{booking.role == 'babysitter' ? 'your' : 'babysitter' }} acceptance</span>
+                    <span ng-if="!booking.paid && booking.accepted && !booking.cancelled">
+                        Awaiting {{booking.role == 'babysitter' ? 'parent' : 'your' }} payment
+                    </span>
+                    <span ng-if="booking.paid && booking.accepted && !booking.cancelled">Booking successful</span>
+                    <span ng-if="booking.cancelled">
+                        This booking has been cancelled
+                    </span>
+                </span> 
+            </h4>
+            <p>Cost: {{booking.cost | currency}}</p>
+        </div>
+        <md-button class="md-icon-button" ng-click="showBookingInformation(key)"> 
+            <md-icon><i class="material-icons">info</i></md-icon>
+        </md-button>
+    </md-list-item>
+    </md-list>

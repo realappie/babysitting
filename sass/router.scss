@@ -1,0 +1,58 @@
+/* Animation of section for ui-router */
+// Animation 
+body{
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; 
+  // Fixing md-datepicker ugly white screen problem
+  top:0 !important;
+}
+
+section {
+    margin-top:75px; 
+    width: 100%;
+    position: absolute;    
+}
+
+
+[ui-view].ng-enter,
+[ui-view].ng-leave {
+    transition: opacity 0.3s ease-in-out;
+}
+
+[ui-view].ng-enter,
+[ui-view].ng-leave,
+[ui-view].ng-leave-active,
+[ui-view].ng-enter-active {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+[ui-view].ng-leave {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+[ui-view].ng-leave-active {
+    opacity: 0;
+    transform: translateY(30%);
+    -webkit-transform: translateY(30%);
+    transition: transform 0.5s cubic-bezier(0.4, 0.0, 1, 1), opacity 0.3s cubic-bezier(0.4, 0.0, 1, 1);
+}
+
+[ui-view].ng-enter {
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+[ui-view].ng-enter-active {
+    opacity: 1;
+    transform: translateY(0%);
+    transition: transform 0.5s cubic-bezier(0.0, 0.0, 0.2, 1) 1s, opacity 0.5s cubic-bezier(0.0, 0.0, 0.2, 1) 1s;
+}

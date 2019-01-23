@@ -1,0 +1,85 @@
+<div class="header">
+    Find a babysitter
+    <md-button class="md-secondary md-icon-button" ng-click="hideForm =! hideForm">
+        <md-icon>
+            <i class="material-icons" ng-class="{rotate: hideForm}">keyboard_arrow_down</i>
+        </md-icon>
+    </md-button>
+</div>
+
+<md-progress-circular md-mode="indeterminate" ng-hide="currentUserLoaded"></md-progress-circular>
+
+<form name="search" ng-class="{slideUp: hideForm}" ng-show="!zeroChildren && currentUserLoaded">    
+    <md-input-container>
+        <label>Booking date</label>
+        <!-- <md-datepicker md-max-date="maxDate" ng-model="date" md-placeholder="Enter date" name="date" required></md-datepicker> -->
+        <md-datepicker 
+            md-min-date="today"
+            md-max-date="maxDate" 
+            ng-model="date" 
+            md-placeholder="Enter date" 
+            name="date" required>
+        </md-datepicker>
+        <div ng-messages="search.date.$error">
+            <div ng-message="required">Required field</div>
+        </div>
+    </md-input-container>
+    <md-input-container>
+        <md-select ng-model="startTime" aria-label="Start time" placeholder="Start Time" 
+        ng-change="reset()" name="startTime" required>
+            <md-option ng-disabled="$last || time.ms >= endTime.ms" ng-value="time" ng-repeat="time in times">
+                {{ time.format }}
+            </md-option>
+        </md-select>
+        <div ng-messages="search.startTime.$error">
+            <div ng-message="required">Required</div>
+        </div>
+    </md-input-container>
+    <md-input-container>
+        <md-select ng-model="endTime" aria-label="End time" placeholder="End Time" ng-disabled="!startTime" 
+        ng-change="reset()" name="endTime" required>
+            <md-option ng-disabled="time.ms <= startTime.ms" ng-value="time" ng-repeat="time in times">
+                {{ time.format }}
+            </md-option>
+        </md-select>
+        <div ng-messages="search.endTime.$error">
+            <div ng-message="required">Required</div>
+        </div>
+    </md-input-container>
+    <md-input-container>
+        <label>Children</label>
+        <md-select ng-model="selectedChildren" name="children" ng-disabled="!startTime || !endTime" ng-change="calcCost()" multiple required>
+            <md-option ng-value="child" ng-repeat="child in currentUser.children">
+                {{child.name}}
+            </md-option>
+        </md-select>
+        <div ng-messages="search.children.$error">
+            <div ng-message="required">Required</div>
+        </div>
+    </md-input-container>
+    <md-button class="md-raised" id="find" ng-click="find()" ng-disabled="search.$invalid">Find</md-button>
+</form>
+<div ng-if="matches.length >= 1">
+<md-divider></md-divider>
+    <div class="header">Top results</div>
+    <md-list>
+      <md-list-item class="md-2-line" ng-repeat="babysitter in matches" ng-click="book(babysitter)">
+      <md-icon><i class="material-icons">person</i></md-icon>
+        <div class="md-list-item-text">
+          <h3>{{babysitter.name}}</h3>
+          <p>{{babysitter.locationCity}}</p>
+          <span class="price">{{calcCost(babysitter.pricing) | currency}}</span>
+        </div>
+      </md-list-item>
+    </md-list>
+</div>
+
+<md-progress-circular md-mode="indeterminate" ng-hide="!searching"></md-progress-circular>
+
+
+<div id="childrenEmptyState" ng-if="zeroChildren && currentUserLoaded">
+    <i class="material-icons">child_care</i>
+    <div>You need to add a child first</div>
+    <md-button class="md-raised" ui-sref='children({edit: false})'> Add a child </md-button>
+    <!-- <md-button class="md-raised" ui-sref='children({edit: true})'> Edit Children </md-button> -->
+</div>

@@ -1,0 +1,25 @@
+<md-content>
+    <md-tabs class="md-accent" md-align-tabs="top" md-dynamic-height md-swipe-content md-center-tabs >
+        <!-- <md-tab id="parentTab" md-active="true"> -->
+        <md-tab id="parentTab" ng-disabled="!currentUser.userType.parent">
+            <md-tab-label>Parent</md-tab-label>
+            <md-tab-body>
+                <div ng-include="pages.parent" id="parentPage" ng-if="currentUser.userType.parent"></div>
+            </md-tab-body>
+        </md-tab>
+        <md-tab id="babySitterTab" ng-disabled="!currentUser.userType.babySitter">
+        <!-- <md-tab id="babySitterTab"> -->
+            <md-tab-label>Babysitter</md-tab-label>
+            <md-tab-body>
+                <div ng-include="pages.babysitter" ng-if="currentUser.userType.babySitter"></div>
+            </md-tab-body>
+        </md-tab>
+        <md-tab id="infoTab" md-active="true">
+        <!-- <md-tab id="infoTab"> -->
+            <md-tab-label>Your Information</md-tab-label>
+            <md-tab-body>
+               <div ng-include="pages.personal"></div>
+            </md-tab-body>
+        </md-tab>
+    </md-tabs>
+</md-content>

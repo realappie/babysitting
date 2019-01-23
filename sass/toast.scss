@@ -1,0 +1,75 @@
+
+#toast {
+    font-family: 'Roboto';
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    position: fixed;
+    width: auto;
+    max-width: 300px;
+    bottom: -48px;
+    background-color: #333333;
+    z-index: 2;
+    transition: bottom 0.3s cubic-bezier(0.4, 0.0, 0.6, 1);
+    display: table;
+}
+
+#toast.animate {
+    bottom: 0px;
+    animation-name: toastSlideUp;
+    animation-duration: 0.3s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+#toastText {
+    float: left;
+    color: white;
+    animation: fadeIn 1s;
+    opacity: 1;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#toast {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    position: fixed;
+    width: auto;
+    max-width: 300px;
+    bottom: -48px;
+    background-color: #333333;
+    z-index: 2;
+    transition: bottom 1s;
+    display: table;
+}
+
+#toast.animate {
+    bottom: 0px;
+    animation-name: toastSlideUp;
+    animation-duration: 0.75s;
+}
+
+#toastText {
+    float: left;
+    color: white;
+    animation: fadeIn 1s;
+    opacity: 1;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    #toast {
+        width: 100vw;
+        max-width: 100vw;
+        border-radius: 0px;
+    }
+}

@@ -1,0 +1,127 @@
+<header id="booking">
+    <md-button class="md-icon-button" aria-label="Previous Week" ng-click="previousWeek()" ng-disabled="currentWeek">
+        <md-icon><i class="material-icons">chevron_left</i></md-icon>
+        <md-tooltip md-direction="left" class="desktop">Previous Week</md-tooltip>
+        <md-tooltip md-direction="bottom" class="mobile">Previous Week</md-tooltip>
+    </md-button>
+    <span>
+        Week <span ng-bind="weekNumber"></span> | <span ng-bind="dayOfMonth"></span>
+    <span ng-bind="month"></span>
+    </span>
+    <md-button class="md-icon-button" aria-label="Next Week" ng-click="nextWeek()" ng-disabled="maxHistory">
+        <md-icon><i class="material-icons">chevron_right</i></md-icon>
+        <md-tooltip md-direction="right" class="desktop">Next week</md-tooltip>
+        <md-tooltip md-direction="bottom" class="mobile">Next week</md-tooltip>
+    </md-button>
+</header>
+<md-progress-circular md-diameter="100" ng-if="!bookingsLoaded"></md-progress-circular>
+<div id="container" ng-if="bookingsLoaded">
+    <div class="day" ng-repeat="day in dayObjects | filter:search">
+        <div class="dayTitle" ng-class="{past: $index < todayIndex && currentWeek, today: $index == todayIndex && currentWeek}">
+            {{day.dayOfWeek}} | {{day.date}}
+            <!-- <md-button class="md-icon-button" aria-label="Book event" ng-disabled="false" ng-click="book(day.ms, $event)"> -->
+            <md-button class="md-icon-button" aria-label="Book event" ng-disabled="$index < todayIndex && currentWeek" ng-click="book(day.ms, $event)">
+                <md-icon> <i class="material-icons">event</i></md-icon>
+                <md-tooltip md-direction="left">
+                    Book
+                </md-tooltip>
+            </md-button>
+        </div>
+        <!-- The ng-if condition will ensure no events are shown off the past -->
+        <div class="dayContent" ng-if="(currentWeek ? $index >= todayIndex : true) && bookingsLoaded">
+            <div class="appointment" ng-repeat="booking in bookings[day.ms] | orderObjectBy:'startTime'">
+                <i class="material-icons">event_busy</i>
+                <span class="text">Booked</span>
+                <span class="time">
+                     {{booking.startTime | date: 'hh:mm a'}} - {{booking.endTime | date: 'hh:mm a'}}
+                </span>
+            </div>
+            <div class="appointment" ng-if="!bookings[day.ms]">
+                <i class="material-icons">event_available</i>
+                <span class="text">This day is available</span>
+            </div>
+            <div>
+            </div>
+            <!-- This day is available, book now! -->
+        </div>
+    </div>
+    <div id="freeWeek" ng-if="weekIsFree">
+        <i class="material-icons" big>event_available</i>
+        <p>This week is available, be the first to <span>book!</span></p>
+        <md-button class="md-fab" aria-label="book" ng-click="book()">
+            <md-icon><i class="material-icons">book</i></md-icon>
+        </md-button>
+    </div>
+</div>
+<div style="visibility: hidden">
+    <div class="md-dialog-container" id="bookDialog">
+        <md-dialog aria-label="Babysitter dialog">
+            <md-dialog-content class="md-dialog-content">
+                <h2>Make a booking</h2>
+                <md-list>
+                    <md-subheader class="md-no-sticky">Booking information</md-subheader>
+                    <md-list-item>
+                        <md-icon><i class="material-icons">email</i></md-icon>
+                        <p>{{babysitter.email}}</p>
+                    </md-list-item>
+                    <md-list-item>
+                        <md-icon><i class="material-icons">event</i></md-icon>
+                        <p>{{selectedDay}}</p>
+                    </md-list-item>
+                    <md-list-item ng-if="duration">
+                        <md-icon><i class="material-icons">schedule</i></md-icon>
+                        <p>{{duration}}</p>
+                    </md-list-item>
+                    <md-list-item ng-if="cost">
+                        <md-icon><i class="material-icons">attach_money</i></md-icon>
+                        <p>{{cost | currency}}</p>
+                    </md-list-item>
+                </md-list>
+                <div id="childrenEmptyState" ng-if="!currentUser.children">
+                    <i class="material-icons">child_care</i>
+                    <div>You need to add a child first</div>
+                    <md-button class="md-raised" ui-sref='children({edit: false})'> Add a child </md-button>
+                    <!-- <md-button class="md-raised" ui-sref='children({edit: true})'> Edit Children </md-button> -->
+                </div>
+                <form name="bookingForm" id="selectMenus" ng-show="currentUser.children">
+                    <span id="choose">Choose a time and children</span>
+                    <md-input-container class="right">
+                        <md-select ng-model="startTime" aria-label="Start time" placeholder="Start Time" ng-change="calcDuration()" name="startTime" required>
+                            <md-option ng-disabled="$last || time.ms >= endTime.ms || time.unavailable" ng-value="time" ng-repeat="time in times">
+                                {{ time.format }}
+                            </md-option>
+                        </md-select>
+                        <div ng-messages="bookingForm.startTime.$error">
+                            <div ng-message="required">Required</div>
+                        </div>
+                    </md-input-container>
+                    <md-input-container>
+                        <md-select ng-model="endTime" aria-label="End time" placeholder="End Time" ng-disabled="!startTime" ng-change="calcDuration()" name="endTime" required>
+                            <md-option ng-disabled="time.ms <= startTime.ms || time.unavailable" ng-value="time" ng-repeat="time in times">
+                                {{ time.format }}
+                            </md-option>
+                        </md-select>
+                        <div ng-messages="bookingForm.endTime.$error">
+                            <div ng-message="required">Required</div>
+                        </div>
+                    </md-input-container>
+                    <md-input-container>
+                        <label>Children</label>
+                        <md-select ng-model="selectedChildren" name="children" ng-disabled="!startTime || !endTime" ng-change="calcCost()" multiple required>
+                            <md-option ng-value="child" ng-repeat="child in currentUser.children">
+                                {{child.name}}
+                            </md-option>
+                        </md-select>
+                        <div ng-messages="bookingForm.children.$error">
+                            <div ng-message="required">Required</div>
+                        </div>
+                    </md-input-container>
+                </form>
+            </md-dialog-content>
+            <md-dialog-actions>
+                <md-button ng-click="confirmBooking()" class="md-primary" ng-disabled="bookingForm.$invalid">Book</md-button>
+                <md-button ng-click="closeDialog(bookingForm)" class="md-warn">Close</md-button>
+            </md-dialog-actions>
+        </md-dialog>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+
+<form name="childrenForm">
+  <div ng-repeat="child in children" class="child">
+    <md-input-container class="md-block">
+    <md-icon class="name"><i class="material-icons">face</i></md-icon>
+    <input ng-model="child.name" type="text" placeholder="Name" name="name_{{$index}}" md-maxlength="10" required>
+    <div ng-messages="childrenForm['name_' + $index].$error">
+      <div ng-message="required">Your child's name is required</div>
+      <div ng-message="md-maxlength">Your child's name cannot be longer than 10 characters</div>
+    </div>
+    </md-input-container>
+    <md-input-container class="dateContainer ">
+    <label>Birthdate:</label>
+    <md-datepicker name="birthday_{{$index}}" ng-change="updateAges()" md-min-date="minDate" md-max-date="maxDate" ng-model="child.birthday " md-placeholder="Enter date " required></md-datepicker>
+    <div ng-messages="childrenForm[ 'birthday_' + $index].$error ">
+      <div ng-message="required ">The birthday is required</div>
+    </div>
+    </md-input-container>
+
+    <span class="age " ng-if="childrenForm[ 'birthday_' + $index].$valid ">
+        {{child.age}} old
+      </span>
+    <div ng-if="editMode">
+       <md-button class="md-icon-button cancel" aria-label="Cancel" ng-click="removeChild(child)">
+          <md-icon><i class="material-icons">cancel</i></md-icon>
+      </md-button>
+      <md-button class="md-raised saveBtn" aria-label="Save child" ng-click="saveChild(child)" ng-if="!emptyChildren" ng-disabled="childrenForm['birthday_' + $index].$invalid || childrenForm['name_' + $index].$invalid">Save</md-button>
+    </div>
+    <md-button class="md-raised addBtn" aria-label="Add child" ng-click="addChild(child, $event, $index)" ng-if="!emptyChildren && !editMode" ng-disabled="childrenForm['birthday_' + $index].$invalid || childrenForm['name_' + $index].$invalid">
+    Add
+    </md-button>
+
+    <div class="addedBar">Child Added</div>
+    <md-divider></md-divider>
+  </div>
+</form>
+
+
+<md-button class="md-fab md-primary" aria-label="Add a child" ng-if="!editMode" ng-disabled="maxChildren || !remoteChildrenLoaded" 
+   ng-click="addChildForm()">
+ <md-icon><i class="material-icons">add</i></md-icon>
+</md-button>
+
+
+
+
+<div id="childrenEmptyState" ng-if="!children">
+  <i class="material-icons">child_care</i>
+  <div>You have no children added yet</div>
+  <md-button class="md-raised" ng-click=''> Add a child </md-button>
+</div>

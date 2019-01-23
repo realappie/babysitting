@@ -1,0 +1,345 @@
+md-sidenav {
+    height: 100vh;
+}
+
+em {
+    opacity: .75;
+    font-size: 0.75em;
+    font-style: italic;
+    font-size: 11px;
+    // background:red;
+    &#checkbox {
+        color: red;
+    }
+}
+
+ .orange{
+    color:#FF9800;
+}
+.green{
+    color:#4CAF50;
+}
+.red{
+    color:#F44336;
+}
+
+#forgotPassword md-dialog-content md-input-container {
+    margin-top: 36px;
+}
+
+// toast end
+// Registration & login styling
+section {
+    #block {
+        width: 75vw;
+        margin: 72px auto;
+        height: 900px;
+        background: $pink;
+        transition: 1s;
+    }
+    md-card {
+        width: 75vw;
+        margin: 5vh auto;
+        //height:auto;
+        max-width: 500px;
+        position: relative;
+        //height:120vh;
+        form[name='loginForm'] {
+            padding-top: 16px;
+            button {
+                margin: 0;
+            }
+            md-input-container {
+                margin: 9px;
+            }
+            #regularLoginBtns {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                margin-top: 18px;
+                margin-bottom: 18px;
+                button[ng-click="login()"] {
+                    order: 1;
+                }
+            }
+        }
+        #login.gButton {
+            margin: 16px auto 0px auto;
+        }
+        .loginInfo {
+            #choice {
+                width: 100%;
+                margin: 8px auto;
+                box-sizing: border-box;
+            }
+            #googleLoginFinished {
+                margin-top: 16px;
+                p {
+                    width: 100%;
+                    text-align: center;
+                    span {
+                        font-weight: 100;
+                        font-size: 1.5rem;
+                        width: 100%;
+                        display: block;
+                    }
+                    button.md-button {
+                        .material-icons.checked {
+                            color: $green;
+                            font-size: 3rem;
+                            margin: 0 auto;
+                            cursor: pointer;
+                            text-align: center;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+            .center {
+                text-align: center;
+                p {
+                    font-size: 2rem;
+                }
+                button.md-button {
+                    padding-top: 10px;
+                }
+                button.md-button:hover {
+                    .material-icons {
+                        color: #4a8bee;
+                        cursor: pointer;
+                        transition: 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+                    }
+                }
+                .material-icons.email {
+                    color: $grey;
+                    font-size: 3rem;
+                    transform: scale(0);
+                    animation: iconAnimate 0.5s 1.5s;
+                    transition: 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+                    -webkit-animation-fill-mode: forwards;
+                    /*Chrome 16+, Safari 4+*/
+                    -moz-animation-fill-mode: forwards;
+                    /*FF 5+*/
+                    -o-animation-fill-mode: forwards;
+                    /*Not implemented yet*/
+                    -ms-animation-fill-mode: forwards;
+                    /*IE 10+*/
+                    animation-fill-mode: forwards;
+                    /*when the spec is finished*/
+                }
+                .material-icons:focus {
+                    outline: 2px solid #4a8bee;
+                }
+            }
+        }
+        .registerPart {
+            overflow: hidden;
+        }
+        .registerPart.slideDown {
+            max-height: 500px;
+            transition: max-height 0.7s cubic-bezier(0.0, 0.0, 0.2, 1);
+        }
+        .registerPart.slideUp {
+            max-height: 0px;
+            transition: max-height 0.7s cubic-bezier(0.0, 0.0, 0.2, 1);
+        }
+        .subHeader {
+            width: 100%;
+            background: #263238;
+            color: white;
+            padding: 16px;
+            margin-left: -16px;
+            height: 19px;
+            position: relative;
+            button.md-icon-button {
+                position: absolute;
+                right: 37.5px;
+                top: 50%;
+                transform: translateY(-50%);
+                .fa-google {
+                    font-size: 1.25em;
+                }
+            }
+            span#gLogo {
+                position: absolute;
+                margin-top: -23px;
+                right: 40px;
+                top: 50%;
+                img {}
+                img:focus {
+                    outline: 1px solid #3aa757;
+                }
+            }
+            .material-icons {
+                float: right;
+                color: grey;
+                line-height: 19px;
+            }
+            .material-icons.done {
+                color: $green;
+            }
+        }
+        .subHeader:focus {
+            outline: 1px dashed $amberAccent;
+        }
+        md-card-title {
+            background: $primary;
+            color: black;
+            padding: 16px;
+        }
+        md-card-title.register {
+            background: $primary;
+            color: black;
+        }
+        .dateContainer {
+            margin-left: -15px;
+        }
+    }
+    button.right {
+        float: right;
+    }
+    .initial {
+        margin-top: 16px;
+    }
+}
+
+@media (max-width:420px) {
+    section md-card {
+        width: 95vw;
+        margin: 2.5vw auto;
+    }
+}
+
+.gButton {
+    display: block;
+    margin: 10px auto;
+    width: 185px;
+    height: 40px;
+    border-radius: 2px;
+    position: relative;
+    animation: fadeIn 1s;
+    outline: none;
+    overflow: hidden;
+}
+
+.gButton .logoTile {
+    text-align: justify;
+    margin: -3px;
+}
+
+.gButton span {
+    font-family: 'Roboto';
+    position: absolute;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    left: 50px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.normal {
+    background: #4688f1;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    transition: 0.7s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.normal:hover {
+    background: #376ad3;
+    box-shadow: 0 4px 5px 0 rgba(70, 136, 241, 0.14), 0 1px 10px 0 rgba(70, 136, 241, 0.14), 0 2px 4px -1px rgba(70, 136, 241, 0.14);
+    transition: 0.7s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.normal:focus {
+    background: #376ad3;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+    transition: 0.7s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.disabled {
+    background: rgba(0, 0, 0, 0.08);
+    transition: 0.7s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.disabled span {
+    color: rgba(0, 0, 0, 0.4);
+    transition: 0.7s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.normal img:nth-child(2) {
+    opacity: 0;
+    transition: opacity 0.7s cubic-bezier(0.4, 0.0, 0.2, 1);
+    display: none;
+}
+
+.disabled img:nth-child(1) {
+    opacity: 0;
+    transition: opacity 0.7s cubic-bezier(0.4, 0.0, 0.2, 1);
+    display: none;
+}
+
+#logout {
+    margin-bottom: 20px;
+    background-color: #ff5252;
+    animation: fadeIn 0.7s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+#logout:hover {
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12);
+}
+
+#logout.fadeOut {
+    background-color: green;
+    animation: fadeOut 5s;
+}
+
+
+/*Google button end*/
+
+// calendar
+.md-default-theme .md-calendar-date.md-calendar-selected-date .md-calendar-date-selection-indicator,
+.md-calendar-date.md-calendar-selected-date .md-calendar-date-selection-indicator,
+.md-default-theme .md-calendar-date.md-focus.md-calendar-selected-date .md-calendar-date-selection-indicator,
+.md-calendar-date.md-focus.md-calendar-selected-date .md-calendar-date-selection-indicator {
+    background: $primary;
+}
+
+.md-default-theme .md-calendar-date.md-calendar-date-today .md-calendar-date-selection-indicator,
+.md-calendar-date.md-calendar-date-today .md-calendar-date-selection-indicator {
+    border: 1px solid #ffb300;
+}
+
+th {
+    background: #ffd54f;
+}
+
+.mobile,
+.md-button.mobile {
+    display: none;
+}
+
+@media (max-width:$md) {
+    #container {
+        width: 95vw;
+        margin: 2.5vw auto;
+    }
+    .mobile,
+    .md-button.mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+    .appointment {
+        .time,
+        .username {
+            font-size: 1rem;
+        }
+    }
+}

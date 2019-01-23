@@ -1,0 +1,14 @@
+{
+  "database": {},
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "node_modules/*",
+      "routes/*",
+      "server/*",
+      "scripts/*",
+      "sass/*"
+    ]
+  }
+}

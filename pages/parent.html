@@ -1,0 +1,34 @@
+<h2>Your Children</h2>
+<!-- <md-divider></md-divider> -->
+<div id="childrenEmptyState" ng-if="zeroChildren || children.length === 0">
+    <i class="material-icons">child_care</i>
+    <div>You have no children added yet</div>
+    <md-button class="md-raised" ui-sref='children({edit: false})'> Add a child </md-button>
+    <!-- <md-button class="md-raised" ui-sref='children({edit: true})'> Edit Children </md-button> -->
+</div>
+<md-progress-circular md-mode="indeterminate" ng-if="!childrenLoaded"></md-progress-circular>
+<div id="childrenContainer" ng-if="childrenLoaded && !zeroChildren || children.length > 0">
+    <md-list>
+        <md-list-item class="md-2-line" ng-repeat="child in children">
+            <div class="md-avatar">
+                <i class="material-icons">face</i>
+            </div>
+            <div class="md-list-item-text">
+                <h3>{{child.name}}</h3>
+                <p>{{item.birthday}}</p>
+            </div>
+            <md-button class="md-secondary md-warn" ng-click="deleteChild(child)">Delete</md-button>
+            <md-divider></md-divider>
+        </md-list-item>
+        <md-list-item class="secondary-button-padding">
+            <md-subheader class="md-no-sticky">Actions</md-subheader>
+            <p></p>
+            <md-button class="md-primary" ui-sref='children({edit: true})' ng-if="!zeroChildren">
+                Edit Children
+            </md-button>
+            <md-button class="md-primary" ui-sref='children({edit: false})' ng-if="children.length < 3 && !zeroChildren">
+                Add Child
+            </md-button>
+        </md-list-item>
+    </md-list>
+</div>

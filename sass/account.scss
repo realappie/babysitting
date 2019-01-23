@@ -1,0 +1,208 @@
+@import 'variables';
+.accountPage,
+.children {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 500;
+    }
+    md-progress-circular {
+        margin: 0 auto;
+    }
+    div[ng-include] {
+        padding-left: 16px;
+    }
+    .md-fab.md-primary {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        animation: 0.7s iconAnimate cubic-bezier(0.4, 0.0, 0.2, 1);
+    }
+    form[ng-if="currentUserLoaded"] {
+        margin-top: 32px;
+        max-width: 500px;
+        height: 364px;
+        md-input-container {
+            width: 70%;
+        }
+        .md-button {
+            margin-left: 60%;
+        }
+    }
+    md-list .md-subheader span.price {
+        float: right;
+    }
+
+    #emptyBookings{
+        width: 100vw;
+        height: 150px;
+        text-align:center;
+        .material-icons{
+            font-size:3rem;
+        }
+    }
+    @media screen and(min-width: 320px) and (max-width:350px) {
+        md-list.workHours {
+            md-list-item {
+                border-bottom: 1px solid #eee;
+                p {
+                    width: 100%;
+                }
+                md-input-container {
+                    width: 105px;
+                }
+            }
+        }
+    }
+    md-list.pricing {
+        md-input-container {
+            margin: 0;
+            float: right;
+            width: 50px;
+        }
+        #updatePricing {
+            margin-right: 4px;
+        }
+    }
+    #accountTypeSettings {
+        max-width: 500px;
+        md-list-item div p:first-letter {
+            text-transform: uppercase;
+        }
+    }
+    #childrenContainer {
+        height: auto;
+        md-list {
+            width: 100%;
+            overflow: hidden;
+        }
+        md-list md-list-item .md-avatar {
+            margin-top: 25px;
+        }
+        md-list md-list-item[class='secondary-button-padding _md'] {
+            padding-right: 16px;
+        }
+        //background:red;
+    }
+    #childrenEmptyState {
+        width: 100vw;
+        height: 200px;
+        text-align: center;
+        .md-button {
+            max-width: 100px;
+        }
+        .material-icons {
+            font-size: 4rem;
+            animation: 0.3s iconAnimate, 0.3s fadeIn;
+        }
+        .md-button {
+            margin: 20px auto;
+        }
+    }
+    md-tabs.md-default-theme.md-accent > md-tabs-wrapper,
+    md-tabs.md-accent > md-tabs-wrapper {
+        background: $primary;
+    }
+    md-tabs.md-default-theme.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]),
+    md-tabs.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]) {
+        color: $blackText;
+    }
+    /* md-tabs.md-default-theme.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]), md-tabs.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]){
+        color:red;
+    }
+     */
+    md-tabs.md-default-theme.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]).md-active,
+    md-tabs.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]).md-active,
+    md-tabs.md-default-theme.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]).md-active md-icon,
+    md-tabs.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]).md-active md-icon,
+    md-tabs.md-default-theme.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]).md-focused,
+    md-tabs.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]).md-focused,
+    md-tabs.md-default-theme.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]).md-focused md-icon,
+    md-tabs.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]).md-focused md-icon {
+        color: $blackText;
+    }
+    md-input-container.md-block {
+        width: 50%;
+    }
+    .md-default-theme .md-datepicker-open .md-datepicker-calendar-icon,
+    .md-datepicker-open .md-datepicker-calendar-icon {
+        color: rgb(63, 81, 181);
+    }
+    #pricing {
+        header {
+            font-weight: bold;
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+        }
+        padding:8px;
+        color:$blackText;
+        display:none;
+    }
+    form[name="childrenForm"] {
+        md-input-container.md-block {
+            margin-left: 15px;
+            max-width: 350px;
+        }
+        div[ng-repeat] {
+            padding-top: 18px;
+            position: relative;
+            .md-button.md-icon-button.cancel,
+            .addBtn {
+                position: absolute;
+                right: 0;
+                bottom: 5px;
+            }
+            .saveBtn {
+                position: absolute;
+                right: 40px;
+                bottom: 0;
+            }
+            div.addedBar {
+                display: none;
+            }
+            &.added {}
+        }
+        .age {
+            font-size: 1.75rem;
+            margin-left: 18px;
+            padding-left: 16px;
+            border-left: 1px solid black;
+            vertical-align: super;
+            height: 35px;
+            @media screen and (min-width: $sm) and (max-width: $md) {
+                font-size: 1rem;
+            }
+        }
+        .child.slide {
+            transition: 0.7s cubic-bezier(0.4, 0.0, 1, 1);
+            transform: translateX(-100%);
+        }
+    }
+    // Centering for bigger screen
+    @media screen and(min-width: 500px) {
+        h2 {
+            text-align: center;
+            padding: 0;
+        }
+        md-tab-content {
+            div[ng-include]:not(#parentPage) {
+                * {
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+                .material-icons {
+                    margin-right: 32px;
+                }
+                .md-button {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+   
+
+}

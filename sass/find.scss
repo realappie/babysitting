@@ -1,0 +1,94 @@
+.find {
+    div.header {
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.75rem;
+        color: $blackText;
+        background: #FFC107;
+        padding: 16px;
+        //margin-bottom:16px;
+        height: 35px;
+        line-height: 35px;
+        .md-button {
+            position:absolute;
+            right:0px;
+            .material-icons {
+                transition: 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+                &.rotate {
+                    transform: rotate(180deg);
+                    transition: 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+                }
+            }
+        }
+    }
+    form {
+        &.slideUp {
+            height: 0;
+            transition: 0.7s cubic-bezier(0.4, 0.0, 0.2, 1);
+        }
+        max-width:450px;
+        padding-left:16px;
+        padding-right: 16px;
+        overflow:hidden;
+        height:385px;
+        transition:0.7s cubic-bezier(0.4, 0.0, 0.2, 1);
+        .md-button {
+            display: block;
+            margin: 0 auto;
+        }
+        md-input-container {
+            display: block;
+            margin: 0 auto 40px auto;
+        }
+        md-input-container:nth-child(1) {
+            margin-top: 40px;
+            margin-bottom: 0px;
+            width: 185px;
+        }
+    }
+    button#find.md-button {
+        margin-bottom: 24px;
+    }
+    md-list {
+        max-width: 450px;
+        margin: 0 auto;
+        .price {
+            position: absolute;
+            right: 16px;
+            top: 15.5px;
+            font-size: 1.25rem;
+        }
+    }
+    @media screen and(min-width: 500px) {
+        form {
+            margin: 0 auto;
+        }
+    }
+    md-progress-circular {
+        margin: 50px auto;
+        path {
+            stroke: #FFC107;
+        }
+        &.ng-hide {
+            transform: translateY(50%);
+            opacity: 0;
+            transition: 0.3s cubic-bezier(0.4, 0.0, 1, 1);
+        }
+    }
+    #childrenEmptyState {
+        margin-top: 40px;
+        width: 100vw;
+        height: 200px;
+        text-align: center;
+        .md-button {
+            max-width: 100px;
+        }
+        .material-icons {
+            font-size: 4rem;
+            animation: 0.3s iconAnimate, 0.3s fadeIn;
+        }
+        .md-button {
+            margin: 20px auto;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+<h2>Work hours</h2>
+<md-progress-circular md-mode="indeterminate" ng-if="!pricingLoaded"></md-progress-circular>
+<md-list class="workHours">
+    <md-subheader class="md-no-sticky">Day</md-subheader>
+    <md-list-item ng-repeat="day in workHours">
+        <p>{{day.name}}</p>
+        <form name="dayForm[{{$index}}]">
+            <!-- {{day.startTime}} - {{day.endTime}} -->
+            <md-input-container>
+                <md-select ng-model="workHours[$index].startTime" aria-label="Start time" placeholder="Start" name="startTime" required>
+                    <md-option 
+                        ng-value="time.ms" 
+                        ng-repeat="time in times"
+                        ng-disabled="time.ms >= workHours[$parent.$index].endTime"
+                    >
+                        {{ time.format }}
+                    </md-option>
+                </md-select>
+                <div ng-messages="dayForm[$index].startTime.$error">
+                    <div ng-message="required">Required</div>
+                </div>
+            </md-input-container>
+            <md-input-container>
+                <md-select ng-model="workHours[$index].endTime" aria-label="End time" placeholder="End" name="endTime" required>
+                    <md-option 
+                        ng-value="time.ms" 
+                        ng-repeat="time in times"
+                        ng-disabled="time.ms <= workHours[$parent.$index].startTime"
+                    >
+                        {{ time.format }}
+                    </md-option>
+                </md-select>
+                <div ng-messages="dayForm[$index].endTime.$error">
+                    <div ng-message="required">Required</div>
+                </div>
+            </md-input-container>
+        </form>
+    </md-list-item>
+    <md-list-item class="secondary-button-padding">
+        <md-subheader class="md-no-sticky">Actions</md-subheader>
+        <p></p>
+        <md-button class="md-primary" ng-click="saveHours()">
+            Update
+        </md-button>
+    </md-list-item>
+    <md-divider></md-divider>
+</md-list>
+<h2>Hourly rates</h2>
+<md-list class="pricing" ng-if="pricingLoaded">
+    <md-subheader class="md-no-sticky">
+        Age group
+        <span class='price'>Rate $/h</span>
+    </md-subheader>
+    <md-list-item ng-repeat="item in ageGroups">
+        <p> {{ item.description }} </p>
+        <form name="pricingForm[{{$index}}]">
+            <md-input-container class="md-icon-float md-block">
+                <!-- <label>Donation Amount</label> -->
+                <md-icon>
+                    <!-- <i class="material-icons">attach_money</i> -->
+                </md-icon>
+                <input ng-model="item.rate" ng-change="checkForms()" type="number" name="rate" step="1" min="0" max="100" aria-label="pricing" required>
+                <div ng-messages="pricingForm[$index].rate.$error">
+                    <div ng-message="required">Required</div>
+                    <div ng-message="min"></div>
+                    <div ng-message="max"></div>
+                </div>
+            </md-input-container>
+        </form>
+    </md-list-item>
+    <md-list-item class="secondary-button-padding">
+        <md-subheader class="md-no-sticky">Actions</md-subheader>
+        <p></p>
+        <md-button class="md-primary" id="updatePricing" ng-click="savePricing()" ng-disabled="invalidPricingForm">
+            Update
+        </md-button>
+    </md-list-item>
+    <md-divider></md-divider>
+</md-list>

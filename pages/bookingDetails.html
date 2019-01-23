@@ -1,0 +1,115 @@
+<md-card>
+    <md-card-header>
+        <md-card-avatar>
+            <md-icon ng-show="bookingLoaded">
+                <i class="material-icons">book</i> 
+            </md-icon>
+        </md-card-avatar>
+        <md-card-header-text>
+            <span class="md-title">Booking</span>
+            <span class="md-subhead">Booking ID: {{booking.$id}}</span>
+            <md-button class="md-icon-button" id="report" ng-click="report($event)">
+				<md-icon>
+					<i class="material-icons">report</i> 
+				</md-icon>
+             </md-button>
+        </md-card-header-text>
+    </md-card-header>
+    <md-progress-circular md-diameter="100" ng-if="!bookingLoaded"></md-progress-circular>
+    <md-card-content ng-show="bookingLoaded">
+
+        <md-list>
+            <md-subheader class="md-no-sticky">Booking information
+                <span><i class="material-icons">info</i></span>
+            </md-subheader>
+            <md-list-item>
+                <md-icon><i class="material-icons">timeline</i></md-icon>
+                <p ng-class="{
+                        orange: (!booking.accepted || !booking.paid), 
+                        green: (booking.paid && booking.accepted),
+                        red: booking.cancelled}"
+                >
+                    <span>
+                        <span ng-if="!booking.accepted && !booking.cancelled">
+                            Awaiting {{booking.role == 'babysitter' ? 'your' : 'babysitter' }} acceptance</span>
+                        <span ng-if="!booking.paid && booking.accepted && !booking.cancelled">
+                            Awaiting {{booking.role == 'babysitter' ? 'parent' : 'your' }} payment
+                        </span>
+                        <span ng-if="booking.paid && booking.accepted && !booking.cancelled">Booking successful</span>
+                        <span ng-if="booking.cancelled">
+                            This booking has been cancelled
+                        </span>
+                    </span> 
+                </p>
+            </md-list-item>
+            <md-list-item>
+                <md-icon><i class="material-icons">date_range</i></md-icon>
+                <p>{{booking.startTime | date: 'hh:mm a'}} - {{booking.endTime | date: 'hh:mm a'}}</p>
+            </md-list-item>
+            <md-list-item>
+                <md-icon><i class="material-icons">today</i></md-icon>
+                <p>{{booking.startTime | date: 'MM-dd-yyyy'}}</p>
+            </md-list-item>
+            <md-list-item>
+                <md-icon><i class="material-icons">attach_money</i></md-icon>
+                <p>{{booking.cost | currency}}</p>
+            </md-list-item>
+            <md-list-item ng-repeat="child in booking.children">
+                <md-icon><i class="material-icons">child_care</i></md-icon>
+                <p>{{child.name}} {{calculateAge(child.birthday)}},
+                    <span>{{calculateAge(child.birthday) > 1 ? 'years' : 'year'}}</span> old
+                </p>
+            </md-list-item>
+            <md-list-item ng-if="currentUser.userType.babySitter && currentUser.userType.parent">
+                <md-icon><i class="material-icons">face</i></md-icon>
+                <p>You booked as a {{booking.role}}</p>
+            </md-list-item>
+        </md-list>
+
+        <md-list>
+            <md-subheader class="md-no-sticky">
+                Babysitter information
+                <span><i class="material-icons">child_friendly</i></span>
+            </md-subheader>
+            <md-list-item>
+                <md-icon><i class="material-icons">person</i></md-icon>
+                <p>{{booking.babysitter.name}}</p>
+            </md-list-item>
+            <md-list-item>
+                <md-icon><i class="material-icons">email</i></md-icon>
+                <p>{{booking.babysitter.email}}</p>
+            </md-list-item>
+        </md-list>
+        
+    </md-card-content>
+    </div>
+    <md-card-actions layout="row" layout-align="end center">
+        <md-button 
+            ng-click="cancelBooking($event)" 
+            class="md-warn" 
+            ng-disabled="booking.paid || booking.cancelled">
+                Cancel booking
+            </md-button>
+        <!-- <md-button ng-click="updateBooking()" class="md-primary">Update booking</md-button> -->
+    </md-card-actions>
+</md-card>
+
+
+<!-- <pre>{{booking | json}}</pre> -->
+
+
+<div style="visibility: hidden">
+    <div class="md-dialog-container" id="reportDialog">
+        <md-dialog aria-label="Babysitter dialog">
+            <md-dialog-content class="md-dialog-content">
+                <h3>Report a problem</h3>
+                <md-progress-circular ng-if="!companyEmail" style="margin:0 auto;"></md-progress-circular>
+                <p ng-if="companyEmail">If you have any problems, please contact us at {{companyEmail}}</p>
+            </md-dialog-content>
+            <md-dialog-actions>
+                <md-button ng-click="closeDialog()" class="md-warn">Close</md-button>
+            </md-dialog-actions>
+        </md-dialog>
+    </div>
+</div>
+<!-- <pre>{{bookings | json}}</pre> -->

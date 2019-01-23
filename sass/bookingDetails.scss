@@ -1,0 +1,19 @@
+.bookingDetails {
+  md-progress-circular {
+  	margin:150px auto;
+  }    
+
+  #report{
+  	.material-icons{ color:#F44336 }
+  	position:absolute;
+  	right:16px;
+  }
+
+  md-card{
+  	md-list{
+  		i.material-icons{
+  			float:right;
+  		}
+  	}
+  }
+}

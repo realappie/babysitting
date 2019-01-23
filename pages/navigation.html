@@ -1,0 +1,39 @@
+<div id="overlay" class="mobile" ng-click="toggleNav()"></div>
+<!-- For mobile -->
+<div id="sideNav" class="mobile">
+    <header>
+        Navigation
+    </header>
+    <ul>
+        <li ng-repeat="availableState in availableStates">
+            <a ui-sref="{{availableState.name}}">
+                <i class="material-icons">{{availableState.data.icon}}</i>
+                <span>{{availableState.data.pageTitle}}</span>
+            </a>
+        </li>
+    </ul>
+
+    <md-button id="logoutBtn" class="md-warn" ng-click="logout()" ng-if="loggedIn">Logout</md-button>
+</div>
+<!-- For desktop -->
+<nav ng-cloak>
+    <md-progress-circular md-mode="indeterminate" ng-hide="authStateLoaded"></md-progress-circular>
+    <md-button class="md-icon-button mobile" aria-label="Open navigation slide" ng-click="toggleNav()">
+        <i class="material-icons">menu</i>
+    </md-button>
+    <header class="mobile">Babysitting</header>
+    <ul ng-if="authStateLoaded">
+        <li ng-repeat="availableState in availableStates">
+            <a 
+                ui-sref="{{availableState.name}}" 
+                ng-class="{active: availableState.name == state.current.name}"
+                ng-hide="availableState.data.parent && !currentUser.userType.parent"
+            >
+                    {{availableState.data.pageTitle}}
+            </a>
+        </li>
+        <li>
+            <md-button ng-click="logout()" ng-if="loggedIn">Logout</md-button>
+        </li>
+    </ul>
+</nav>

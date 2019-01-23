@@ -1,0 +1,61 @@
+<md-card>
+    <md-card-title>
+        <md-card-title-text>
+            <span class="md-headline">Login</span>
+        </md-card-title-text>
+    </md-card-title>
+    <md-card-content>
+        <form name="loginForm">
+            <md-input-container class="md-block">
+                <!-- Use floating placeholder instead of label -->
+                <md-icon class="email"><i class="material-icons">email</i></md-icon>
+                <input ng-model="user.email" type="email" placeholder="Email" name="email" required>
+                <div ng-messages="loginForm.email.$error">
+                    <div ng-message="required">This field is required</div>
+                </div>
+            </md-input-container>
+            <md-input-container class="md-icon-float md-block">
+                <!-- Use floating label instead of placeholder -->
+                <label>Password</label>
+                <md-icon><i class="material-icons">vpn_key</i></md-icon>
+                <input ng-model="user.password" type="password" name="password" minlength="7" required>
+                <div ng-messages="loginForm.password.$error">
+                    <div ng-message="required">This field is required</div>
+                    <div ng-message="minlength">Your password is at least 7 characters long</div>
+                </div>
+            </md-input-container>
+            <md-divider></md-divider>
+            <div id="regularLoginBtns">
+                <md-button class="md-primary loginButtons" ng-click="login()" ng-disabled="loginForm.$invalid">Login</md-button>
+                <md-button class="md-primary loginButtons" ng-click="forgotPassword()">
+                    Forget Password
+                </md-button>
+            </div>
+        </form>
+        <md-divider></md-divider>
+        <div class="gButton normal" id="login" role="login button" ng-click="signInWithGoogle()" aria-label="login with google">
+            <img class="logoTile" src="images/gButtonNormal.svg" />
+            <img class="logoTile" src="images/gButtonDisabled.svg" />
+            <span>Sign in with Google</span>
+        </div>
+    </md-card-content>
+</md-card>
+<div style="visibility: hidden">
+    <div class="md-dialog-container" id="forgotPassword">
+        <md-dialog aria-label="Babysitter dialog">
+            <md-dialog-content class="md-dialog-content">
+                <h3>Request new password</h3>
+                <md-input-container class="md-block">
+                    <label>Email</label>
+                    <md-icon><i class="material-icons">email</i></md-icon>
+                    <input ng-model="user.email">
+                </md-input-container>
+            </md-dialog-content>
+            <md-dialog-actions>
+                <md-button ng-click="requestResetLink()" class="md-primary">Request reset link</md-button>
+                <md-button ng-click="closeDialog()" class="md-warn">Close</md-button>
+            </md-dialog-actions>
+        </md-dialog>
+    </div>
+</div>
+<!-- <pre>{{bookings | json}}</pre> -->
